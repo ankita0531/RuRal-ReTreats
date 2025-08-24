@@ -4,9 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rural Retreats - Explore Indian Villages</title>
-  <meta name="description" content="Discover India's most beautiful villages – culture, food, festivals, and hidden gems. Explore Mawlynnong, Khonoma, Pragpur, Poovar, Hodka, and more.">
+  <meta name="description" content="Discover India's most beautiful villages – culture, food, festivals, and hidden gems. Explore Mawlynnong, Khonoma, Pragpur, Poovar, Hodka, Ziro, and more.">
 
-  
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
   <style>
@@ -14,16 +13,16 @@
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background: #121212; 
-      color: #f1f1f1;
+      background: #ffffff;
+      color: #333;
       overflow-x: hidden;
     }
 
     header {
       text-align: center;
       padding: 4rem 2rem;
-      background: linear-gradient(135deg, #ff9933, #000, #138808); /* Indian flag colors */
-      color: white;
+      background: linear-gradient(135deg, #ff9933, #ffffff, #138808);
+      color: #222;
       position: relative;
       overflow: hidden;
     }
@@ -33,12 +32,13 @@
       margin: 0;
       font-weight: 700;
       letter-spacing: 1px;
-      text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
     }
 
     header p {
       font-size: 1.3rem;
       margin-top: 1rem;
+      color: #444;
     }
 
     .villages {
@@ -51,9 +51,9 @@
     }
 
     .card {
-      background: #1e1e1e;
+      background: #f9f9f9;
       border-radius: 20px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
       overflow: hidden;
       transform: scale(0.95);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -63,7 +63,7 @@
       width: 100%;
       height: 220px;
       object-fit: cover;
-      filter: brightness(0.85);
+      filter: brightness(0.95);
     }
 
     .card-content {
@@ -73,7 +73,7 @@
     .card h2 {
       margin: 0;
       font-size: 1.8rem;
-      color: #ff9933;
+      color: #ff6600;
       margin-bottom: 0.5rem;
     }
 
@@ -81,12 +81,13 @@
       margin: 0.5rem 0;
       line-height: 1.6;
       font-size: 0.95rem;
-      color: #ddd;
+      color: #555;
     }
 
     .card:hover {
       transform: scale(1.03);
-      box-shadow: 0 15px 30px rgba(255, 244, 232, 0.916);
+      box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+      background-color: rgb(255, 255, 255);
     }
 
     .map-section {
@@ -95,8 +96,8 @@
       padding: 1rem;
       border-radius: 15px;
       overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.7);
-      background: #1e1e1e;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      background: #ffffff;
     }
 
     .map-section h2 {
@@ -113,8 +114,8 @@
     footer {
       text-align: center;
       padding: 1.5rem;
-      background: #000;
-      color: #f1f1f1;
+      background: #f1f1f1;
+      color: #333;
       font-size: 0.9rem;
       margin-top: 3rem;
     }
@@ -196,6 +197,21 @@
         <p><b>Attraction:</b> White Rann of Kutch & folk music</p>
       </div>
     </div>
+
+    <!-- NEW VILLAGE: Ziro -->
+    <div class="card">
+      <img src="img\ziro.jpg" alt="Scenic view of Ziro valley in Arunachal Pradesh">
+      <div class="card-content">
+        <h2>Ziro, Arunachal Pradesh</h2>
+        <p><b>Why Visit:</b> UNESCO tentative heritage site 🌄</p>
+        <p><b>Language:</b> Apatani</p>
+        <p><b>Food:</b> Bamboo shoot pickle, rice beer</p>
+        <p><b>Culture:</b> Apatani tribe with unique farming techniques</p>
+        <p><b>Festival:</b> Ziro Festival of Music 🎶</p>
+        <p><b>Weather:</b> Pleasant summers, chilly winters</p>
+        <p><b>Attraction:</b> Pine-clad valleys & cultural immersion</p>
+      </div>
+    </div>
   </section>
 
   <section class="map-section">
@@ -207,15 +223,11 @@
     <p>&copy; 2025 Rural Retreats | Discover the soul of India 🇮🇳</p>
   </footer>
 
- 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-
- 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
   <script>
-  
     gsap.from("header h1", { y: -100, opacity: 0, duration: 1, ease: "bounce" });
     gsap.from("header p", { y: 50, opacity: 0, duration: 1.2, delay: 0.5, ease: "power2.out" });
 
@@ -238,23 +250,20 @@
       ease: "power3.out"
     });
 
-  
-    var map = L.map("map").setView([22.9734, 78.6569], 5); 
-
+    var map = L.map("map").setView([22.9734, 78.6569], 5);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: "&copy; OpenStreetMap contributors"
     }).addTo(map);
-
 
     var villages = [
       { name: "Mawlynnong, Meghalaya", coords: [25.2976, 91.7196], info: "Asia’s cleanest village 🌿" },
       { name: "Khonoma, Nagaland", coords: [25.6742, 94.0700], info: "India’s first green village 🌱" },
       { name: "Pragpur, Himachal Pradesh", coords: [31.8236, 76.2181], info: "India’s first heritage village 🏛️" },
       { name: "Poovar, Kerala", coords: [8.3167, 77.0833], info: "Where river meets the sea 🌊" },
-      { name: "Hodka, Gujarat", coords: [23.7337, 69.6476], info: "Experience Rann Utsav 🎉" }
+      { name: "Hodka, Gujarat", coords: [23.7337, 69.6476], info: "Experience Rann Utsav 🎉" },
+      { name: "Ziro, Arunachal Pradesh", coords: [27.5938, 93.8196], info: "UNESCO tentative heritage site 🌄" }
     ];
 
-   
     villages.forEach(v => {
       L.marker(v.coords).addTo(map)
         .bindPopup("<b>" + v.name + "</b><br>" + v.info);
@@ -262,3 +271,5 @@
   </script>
 </body>
 </html>
+
+
