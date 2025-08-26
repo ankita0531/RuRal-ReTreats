@@ -92,26 +92,6 @@
       background-color: #fff;
     }
 
-    .map-section {
-      margin: 3rem auto;
-      max-width: 1100px;
-      padding: 1rem;
-      border-radius: 15px;
-      overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-      background: #ffffff;
-    }
-
-    .map-section h2 {
-      text-align: center;
-      color: #138808;
-      margin-bottom: 1rem;
-    }
-
-    #map {
-      height: 450px;
-      border-radius: 15px;
-    }
   </style>
 
 
@@ -121,18 +101,7 @@
 <style>
  
  
- #map {
-    height: 450px !important;
-    width: 100% !important;
-    display: block !important;
-    position: relative !important;
-    z-index: 1 !important;
-  }
 
-  .map-section {
-    display: block !important;
-    visibility: visible !important;
-  }
 
   /* ✅ Restore Grid for Villages */
   .villages {
@@ -155,7 +124,7 @@
   }
 </style>
 
-
+ 
 </head>
 <body>
   <header>
@@ -249,10 +218,6 @@
     </div>
   </section>
 
-  <section class="map-section">
-    <h2>🌍 Explore Villages on Map</h2>
-    <div id="map"></div>
-  </section>
 
   <footer class="footer">
     <div class="footer-container">
@@ -327,7 +292,7 @@
   </footer>
 
   <button id="backToTop" class="back-to-top-btn" aria-label="Go to top">↑</button>
-
+<!-- 
   <div id="chatButton" class="chatbot-button" aria-label="Open chat">
     <i class="fas fa-comment-dots"></i>
   </div>
@@ -349,7 +314,7 @@
         <button id="clearChat" title="Clear Chat"><i class="fas fa-trash-alt"></i></button>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
