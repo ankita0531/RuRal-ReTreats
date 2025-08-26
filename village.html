@@ -6,13 +6,10 @@
   <title>Rural Retreats - Explore Indian Villages</title>
   <meta name="description" content="Discover India's most beautiful villages – culture, food, festivals, and hidden gems. Explore Mawlynnong, Khonoma, Pragpur, Poovar, Hodka, Ziro, and more.">
 
+  <!-- Leaflet & Font Awesome -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-rXk8cOfefb7fAGkYH2hnV5QlBdLkdyHBB3rVzCzJG/nnlx4hjM+Rzwz1RO8pDqx8eRYnApvVpk5pWc8eqbt9Dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-rXk8cOfefb7fAGkYH2hnV5QlBdLkdyHBB3rVzCzJG/nnlx4hjM+Rzwz1RO8pDqx8eRYnApvVpk5pWc8eqbt9Dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
-
-  
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -22,12 +19,11 @@
       color: #333;
       overflow-x: hidden;
     }
-     
 
     header {
       text-align: center;
       padding: 4rem 2rem;
-      background: linear-gradient(135deg,#0077b6, #ffffff, #0080ff);
+      background: linear-gradient(135deg, #0077b6, #ffffff, #0080ff);
       color: #222;
       position: relative;
       overflow: hidden;
@@ -93,7 +89,7 @@
     .card:hover {
       transform: scale(1.03);
       box-shadow: 0 15px 50px rgba(0,0,0,0.2);
-      background-color: rgb(255, 255, 255);
+      background-color: #fff;
     }
 
     .map-section {
@@ -116,18 +112,50 @@
       height: 450px;
       border-radius: 15px;
     }
-
-
-
-
-
-
   </style>
-     <link rel="stylesheet" href="./CSS/about.css" />
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
 
-  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <link rel="stylesheet" href="./CSS/about.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+<style>
+ 
+ 
+ #map {
+    height: 450px !important;
+    width: 100% !important;
+    display: block !important;
+    position: relative !important;
+    z-index: 1 !important;
+  }
+
+  .map-section {
+    display: block !important;
+    visibility: visible !important;
+  }
+
+  /* ✅ Restore Grid for Villages */
+  .villages {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+    gap: 2rem !important;
+    padding: 3rem 2rem !important;
+    max-width: 1300px !important;
+    margin: auto !important;
+  }
+
+  /* ✅ Ensure Cards Show */
+  .card {
+    display: block !important;
+    position: relative !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: scale(0.95) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  }
+</style>
+
+
 </head>
 <body>
   <header>
@@ -207,7 +235,7 @@
     </div>
 
     <div class="card">
-      <img src="img\ziro.jpg" alt="Scenic view of Ziro valley in Arunachal Pradesh">
+      <img src="img/ziro.jpg" alt="Scenic view of Ziro valley in Arunachal Pradesh">
       <div class="card-content">
         <h2>Ziro, Arunachal Pradesh</h2>
         <p><b>Why Visit:</b> UNESCO tentative heritage site 🌄</p>
@@ -226,60 +254,12 @@
     <div id="map"></div>
   </section>
 
-
-  <div class="lightbox">
-    <span class="close-lightbox">&times;</span>
-    <div class="lightbox-content">
-      <div class="lightbox-images"></div>
-    </div>
-  </div>
-
-  <section class="cta-section">
-    <div class="cta-content">
-      <h2>Plan Your Next Trip With Us</h2>
-      <p>
-        Discover breathtaking destinations, immersive experiences, and
-        personalized travel packages. Let’s make your next adventure
-        unforgettable!
-      </p>
-
-      <div class="cta-buttons">
-        <a href="book-now.html" class="cta-btn primary-btn">✈ Plan a Trip</a>
-        <a href="contact.html" class="cta-btn secondary-btn">📞 Contact an Expert</a>
-      </div>
-
-      <div class="newsletters">
-        <h3>Subscribe for Exclusive Travel Deals!</h3>
-        <div class="newsletter-form">
-          <input type="email" id="newsletter-emails" placeholder="Enter your email" />
-          <button id="subscribe-btn">Subscribe</button>
-        </div>
-      </div>
-
-      <div class="social-media">
-        <h3>Connect with Us</h3>
-        <div class="social-iconsss">
-          <a href="#" class="social-iconss" title="Facebook"><i class="fab fa-facebook"></i></a>
-          <a href="#" class="social-iconss" title="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="social-iconss" title="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="social-iconss" title="GitHub"><i class="fab fa-github"></i></a>
-          <a href="#" class="social-iconss" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="#" class="social-iconss" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <footer class="footer">
     <div class="footer-container">
-      <!-- First Row: Rural Retreats, Quick Links, Customer Support -->
       <div class="footer-row">
         <div class="footer-section about">
           <h3 class="footer-title">Rural Retreats</h3>
-          <p>
-            We offer budget-friendly tours, curated travel experiences, and
-            luxury escapes worldwide.
-          </p>
+          <p>We offer budget-friendly tours, curated travel experiences, and luxury escapes worldwide.</p>
         </div>
 
         <div class="footer-section links">
@@ -297,24 +277,20 @@
 
         <div class="footer-section contact">
           <h4>Customer Support</h4>
-          <p>Email: <a href="#">support@ruralretreats.com</a></p>
+          <p>Email: <a href="mailto:support@ruralretreats.com">support@ruralretreats.com</a></p>
           <p>Phone: <a href="tel:+91629XXXXXXX">+91 629XX XXXXX</a></p>
-          <p>
-            Address: Q University Institute Of Technology, Burdwan-713104,
-            West Bengal
-          </p>
+          <p>Address: Q University Institute Of Technology, Burdwan-713104, West Bengal</p>
         </div>
       </div>
 
-      <!-- Second Row: Social Media, Language Selector, Newsletter -->
       <div class="footer-row">
         <div class="footer-section social-media">
           <h4>Follow Us</h4>
           <div class="social-icons">
-            <a href="#" class="youtube" title="youtube"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#" class="instagram" title="instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" class="twitter" title="twitter"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#" class="linkedin" title="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="youtube" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="twitter" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="linkedin" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
           </div>
         </div>
 
@@ -331,40 +307,28 @@
           </select>
         </div>
 
-          <div class="footer-section">
-            <h4>Newsletter</h4>
-            <p>Subscribe for exclusive travel deals!</p>
-            <div class="newsletter">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                id="newsletter-email"
-                required
-              />
-              <button
-                type="submit"
-                class="footer-newsletter-btn"
-                onclick="subscribeNewsletter()"
-              >
-                <b>Subscribe</b>
-              </button>
-            </div>
+        <div class="footer-section">
+          <h4>Newsletter</h4>
+          <p>Subscribe for exclusive travel deals!</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" id="newsletter-email" required />
+            <button type="submit" class="footer-newsletter-btn" onclick="subscribeNewsletter()"><b>Subscribe</b></button>
           </div>
         </div>
       </div>
+    </div>
 
     <div class="footer-bottom">
-      <p>
-        &copy; 2025 Rural Retreats. All rights reserved. |
+      <p>&copy; 2025 Rural Retreats. All rights reserved. |
         <a href="pp.html">Privacy Policy</a> |
         <a href="t&c.html">Terms & Conditions</a>
       </p>
     </div>
   </footer>
 
-  <button id="backToTop" class="back-to-top-btn" title="Go to top">↑</button>
+  <button id="backToTop" class="back-to-top-btn" aria-label="Go to top">↑</button>
 
-  <div id="chatButton" class="chatbot-button">
+  <div id="chatButton" class="chatbot-button" aria-label="Open chat">
     <i class="fas fa-comment-dots"></i>
   </div>
 
@@ -372,30 +336,22 @@
     <div class="chatbot-modal-content">
       <div class="chatbot-header">
         <h3>Chat with Us</h3>
-        <span class="close-chatbot">&times;</span>
+        <span class="close-chatbot" aria-label="Close chat">&times;</span>
       </div>
       <div class="chatbot-body">
         <div id="chatMessages" class="chat-messages"></div>
-        <div id="typingIndicator" class="typing-indicator">
-          🤖 Bot is typing...
-        </div>
+        <div id="typingIndicator" class="typing-indicator">🤖 Bot is typing...</div>
       </div>
       <div class="chat-input">
         <input type="text" id="chatInput" placeholder="Type your message..." />
-        <button id="sendMessage" title="Send Message">
-          <i class="fas fa-paper-plane"></i>
-        </button>
-        <button id="voiceInput" title="Voice Input">
-          <i class="fas fa-microphone"></i>
-        </button>
-        <button id="clearChat" title="Clear Chat">
-          <i class="fas fa-trash-alt"></i>
-        </button>
+        <button id="sendMessage" title="Send Message"><i class="fas fa-paper-plane"></i></button>
+        <button id="voiceInput" title="Voice Input"><i class="fas fa-microphone"></i></button>
+        <button id="clearChat" title="Clear Chat"><i class="fas fa-trash-alt"></i></button>
       </div>
     </div>
   </div>
 
-
+  <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -444,5 +400,3 @@
   </script>
 </body>
 </html>
-
-
