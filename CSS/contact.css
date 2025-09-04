@@ -112,10 +112,14 @@ body {
 
 .hamicon {
   display: block;
-  font-size: 24px;
   background: none;
   border: none;
   cursor: pointer;
+  color: black;
+  font-size: 25px;
+  padding: 0px;
+  margin-left: 20px;
+  /* transition: color 0.3s ease-in-out; */
 }
 
 .navbar {
@@ -228,12 +232,14 @@ body {
   flex: 1;
 }
 
+
 .search-bar button {
   background: none;
   border: none;
   cursor: pointer;
   color: #0073e6;
   font-size: 16px;
+  padding: 0px;
   transition: color 0.3s ease-in-out;
 }
 
@@ -308,10 +314,11 @@ body {
 .close-btn {
   position: absolute;
   top: 15px;
-  left: 200px;
+  left: 190px;
   font-size: 20px;
   cursor: pointer;
-  color: red;
+  color: rgb(51, 39, 39);
+  padding: 10px 20px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -346,8 +353,17 @@ body {
   background: #f1f1f1;
   padding: 6px 12px;
   border-radius: 5px;
-  margin: 40px auto;
-  width: 90%;
+  margin: 60px auto;
+  width: 100%;
+}
+.mobile-search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #0073e6;
+  font-size: 20px;
+  padding: 0px;
+  transition: color 0.3s ease-in-out;
 }
 
 .mobile-search-bar input {
@@ -356,7 +372,7 @@ body {
   background: transparent;
   padding: 5px;
   flex: 1;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
