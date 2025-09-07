@@ -38,10 +38,11 @@
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script src="./JS/t&c.js" defer></script>
   <script src="./JS/navbar.js" defer></script>
+  <script src="./JS/translate.js" defer></script>
+  
 </head>
 
-
-<body>
+<body data-page = "t&c">
   <header>
     <nav class="navbar">
       <div class="nav-container">
@@ -54,27 +55,27 @@
         </div>
 
         <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
+          <li><a id = "navbar_home"  href="index.html">Home</a></li>
           <li class="dropdown">
-            <a href="services.html">Services <i class="fas fa-chevron-down"></i></a>
+            <a id = "navbar_services" href="services.html">Services <i class="fas fa-chevron-down"></i></a>
             <ul class="dropdown-menu">
-              <li><a href="services.html#tours">Holiday Packages</a></li>
-              <li><a href="services.html#bus">Bus Booking</a></li>
-              <li><a href="services.html#homestays">Homestays Booking</a></li>
+              <li><a id = "navbar_services_holiday" href="services.html#tours">Holiday Packages</a></li>
+              <li><a id = "navbar_services_bus" href="services.html#bus">Bus Booking</a></li>
+              <li><a id = "navbar_services_homestays" href="services.html#homestays">Homestays Booking</a></li>
             </ul>
           </li>
-          <li><a href="homestays.html">HomeStays</a></li>
-          <li><a href="faq.html">FAQs</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a id = "navbar_homestays" href="homestays.html">HomeStays</a></li>
+          <li><a id = "navbar_faq" href="faq.html">FAQs</a></li>
+          <li><a id = "navbar_contact" href="contact.html">Contact Us</a></li>
         </ul>
 
         <div class="right-section">
           <div class="search-bar">
             <input type="text" placeholder="Search..." id="search-input" />
-            <button title="search"><i class="fas fa-search"></i></button>
+            <button id = "search_btn" title="search"><i class="fas fa-search"></i></button>
           </div>
           <div class="auth-buttons">
-            <button class="login-btn" onclick="window.location.href='login.html'">
+            <button class="login-btn" id = "login_btn" onclick="window.location.href='login.html'">
               Log In
             </button>
           </div>
@@ -87,70 +88,70 @@
 
       <div class="mobile-search-bar">
         <input type="text" placeholder="Search..." id="mobile-search-input" />
-        <button title="search"><i class="fas fa-search"></i></button>
+        <button id = "search_btn" title="search"><i class="fas fa-search"></i></button>
       </div>
 
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="homestays.html">HomeStays</a></li>
-        <li><a href="faq.html">FAQs</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a id = "navbar_home" href="index.html">Home</a></li>
+        <li><a id = "navbar_services" href="services.html">Services</a></li>
+        <li><a id = "navbar_homestays" href="homestays.html">HomeStays</a></li>
+        <li><a id = "navbar_faq" href="faq.html">FAQs</a></li>
+        <li><a id = "navbar_contact" href="contact.html">Contact Us</a></li>
       </ul>
     </div>
   </header>
 
   <section class="heading">
-    <h1>Terms & Conditions</h1>
+    <h1 id = "heading_terms">Terms & Conditions</h1>
   </section>
 
   <section class="content">
-    <h2>1. Introduction</h2>
-    <p>
-      Welcome to RURAL RETREATS! By accessing our website and using our
+    <h2 id = "content_intro_title">1. Introduction</h2>
+    <p id = "content_intro_text">
+      Welcome to <span translate="no">RURAL RETREATS</span>! By accessing our website and using our
       services, you agree to comply with the following terms and conditions.
     </p>
 
-    <h2>2. Booking & Payments</h2>
-    <p>
+    <h2 id = "content_booking_title">2. Booking & Payments</h2>
+    <p id = "content_booking_text">
       All bookings must be made through our official website. Payments must be
       completed before confirmation. We accept major credit cards, PayPal, and
       UPI transactions.
     </p>
 
-    <h2>3. Cancellations & Refunds</h2>
-    <p>
+    <h2 id = "content_cancel_title">3. Cancellations & Refunds</h2>
+    <p id = "content_cancel_text">
       Cancellations made at least 7 days before the booking date will receive
       a full refund. Last-minute cancellations (less than 48 hours) are
       non-refundable.
     </p>
 
-    <h2>4. Travel Insurance</h2>
-    <p>
+    <h2 id = "content_insurance_title">4. Travel Insurance</h2>
+    <p id = "content_insurance_text">
       We strongly recommend purchasing travel insurance to cover any
       unexpected changes or cancellations.
     </p>
 
-    <h2>5. Conduct & Responsibilities</h2>
-    <p>
+    <h2 id = "content_conduct_title">5. Conduct & Responsibilities</h2>
+    <p id = "content_conduct_text">
       All guests must respect the cultural and natural environment of our
       retreats. Any damage caused by negligence will be charged accordingly.
     </p>
 
-    <h2>6. Privacy & Security</h2>
-    <p>
+    <h2 id = "content_privacy_title">6. Privacy & Security</h2>
+    <p id = "content_privacy_text">
       Personal information provided during booking is stored securely and will
       not be shared with third parties without consent.
     </p>
 
-    <h2>7. Changes to Terms</h2>
-    <p>
-      RURAL RETREATS reserves the right to modify these terms at any time.
+    <h2 id = "content_changes_title">7. Changes to Terms</h2>
+    <p id = "content_changes_text">
+      <span translate="no">RURAL RETREATS</span> reserves the right to modify these terms at any time.
       Updated terms will be posted on this page.
     </p>
 
-    <h2>8. Contact Us</h2>
-    <p>
+    <h2 id = "content_contact_title">8. Contact Us</h2>
+    <p id = "content_contact_text">
       If you have any questions about these Terms & Conditions, please contact
       us at
       <a href="mailto:support@ruralretreats.com">support@ruralretreats.com</a>.
@@ -162,31 +163,31 @@
       <!-- First Row: Rural Retreats, Quick Links, Customer Support -->
       <div class="footer-row">
         <div class="footer-section about">
-          <h3 class="footer-title">Rural Retreats</h3>
-          <p>
+          <h3 class="footer-title" translate="no">Rural Retreats</h3>
+          <p id = "footer_about">
             We offer budget-friendly tours, curated travel experiences, and
             luxury escapes worldwide.
           </p>
         </div>
 
         <div class="footer-section links">
-          <h4>Quick Links</h4>
+          <h4 id = "footer_quicklinks">Quick Links</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="homestays.html">Hotels & Homestays</a></li>
-            <li><a href="#blog-highlights">Travel Guides</a></li>
-            <li><a href="faq.html">FAQs</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a id = "footer_home" href="index.html">Home</a></li>
+            <li><a id = "footer_about_link" href="about.html">About Us</a></li>
+            <li><a id = "footer_services" href="services.html">Services</a></li>
+            <li><a id = "footer_hotels" href="homestays.html">Hotels & Homestays</a></li>
+            <li><a id = "footer_guides" href="#blog-highlights">Travel Guides</a></li>
+            <li><a id = "footer_faq" href="faq.html">FAQs</a></li>
+            <li><a id = "footer_contact" href="contact.html">Contact Us</a></li>
           </ul>
         </div>
 
         <div class="footer-section contact">
-          <h4>Customer Support</h4>
-          <p>Email: <a href="#">support@ruralretreats.com</a></p>
-          <p>Phone: <a href="tel:+91629XXXXXXX">+91 629XX XXXXX</a></p>
-          <p>
+          <h4 id = "footer_support">Customer Support</h4>
+          <p id = "footer_email">Email: <a href="#">support@ruralretreats.com</a></p>
+          <p id = "footer_phone">Phone: <a href="tel:+91629XXXXXXX">+91 629XX XXXXX</a></p>
+          <p id = "footer_address">
             Address: Q University Institute Of Technology, Burdwan-713104,
             West Bengal
           </p>
@@ -196,7 +197,7 @@
       <!-- Second Row: Social Media, Language Selector, Newsletter -->
       <div class="footer-row">
         <div class="footer-section social-media">
-          <h4>Follow Us</h4>
+          <h4 id = "footer_follow">Follow Us</h4>
           <div class="social-icons">
             <a href="#" class="youtube" title="youtube"><i class="fa-brands fa-youtube"></i></a>
             <a href="#" class="instagram" title="instagram"><i class="fa-brands fa-instagram"></i></a>
@@ -206,43 +207,34 @@
         </div>
 
         <div class="footer-section language-selector">
-          <h4>Language</h4>
-          <label for="language-select">Choose Language:</label>
+          <h4 id = "footer_language">Language</h4>
+          <label id = "footer_lang_label" for="language-select">Choose Language:</label>
           <select id="language-select">
-            <option>English</option>
-            <option>Bengali</option>
-            <option>Hindi</option>
-            <option>French</option>
-            <option>Spanish</option>
-            <option>German</option>
+              <option value="en">English</option>
+              <option value="bn">Bengali</option>
+              <option value="hi">Hindi</option>
+              <option value="fr">French</option>
+              <option value="es">Spanish</option>
+              <option value="de">German</option>
           </select>
         </div>
 
-          <div class="footer-section">
-            <h4>Newsletter</h4>
-            <p>Subscribe for exclusive travel deals!</p>
-            <div class="newsletter">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                id="newsletter-email"
-                required
-              />
-              <button
-                type="submit"
-                class="footer-newsletter-btn"
-                onclick="subscribeNewsletter()"
-              >
-                <b>Subscribe</b>
-              </button>
-            </div>
+        <div class="footer-section newsletter">
+          <h4 id = "footer_newsletter_heading">Newsletter</h4>
+          <p id = "footer_newsletter">Subscribe for exclusive travel deals!</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" id="newsletter-email"  required />
+            <button type="submit" class="footer-newsletter-btn" id = "footer-newsletter-btn"onclick="subscribeNewsletter()">
+              <b>Subscribe</b>
+            </button>
+
           </div>
         </div>
       </div>
 
     <div class="footer-bottom">
-      <p>
-        &copy; 2025 Rural Retreats. All rights reserved. |
+      <p  id = "footer_rights">
+        &copy; 2025 <span translate="no">Rural Retreats.</span> All rights reserved. |
         <a href="pp.html">Privacy Policy</a> |
         <a href="t&c.html">Terms & Conditions</a>
       </p>
@@ -258,7 +250,7 @@
   <div id="chatModal" class="chatbot-modal">
     <div class="chatbot-modal-content">
       <div class="chatbot-header">
-        <h3>Chat with Us</h3>
+        <h3 id = "chatbot_header">Chat with Us</h3>
         <span class="close-chatbot">&times;</span>
       </div>
       <div class="chatbot-body">
@@ -282,5 +274,4 @@
     </div>
   </div>
 </body>
-
 </html>

@@ -1,0 +1,412 @@
+{
+    "en":{
+        "navbar_home": "Home",
+        "navbar_services": "Services",
+        "navbar_services_holiday": "Holiday Packages",
+        "navbar_services_bus": "Bus Booking",
+        "navbar_services_homestays": "Homestays Booking",
+        "navbar_homestays": "HomeStays",
+        "navbar_faq": "FAQs",
+        "navbar_contact": "Contact Us",
+        "search_btn": "Search",
+        "login_btn": "Log In",
+      
+        "heading_terms": "Terms & Conditions",
+      
+        "content_intro_title": "1. Introduction",
+        "content_intro_text": "Welcome to Rural Retreats! By accessing our website and using our services, you agree to comply with the following terms and conditions.",
+      
+        "content_booking_title": "2. Booking & Payments",
+        "content_booking_text": "All bookings must be made through our official website. Payments must be completed before confirmation. We accept major credit cards, PayPal, and UPI transactions.",
+      
+        "content_cancel_title": "3. Cancellations & Refunds",
+        "content_cancel_text": "Cancellations made at least 7 days before the booking date will receive a full refund. Last-minute cancellations (less than 48 hours) are non-refundable.",
+      
+        "content_insurance_title": "4. Travel Insurance",
+        "content_insurance_text": "We strongly recommend purchasing travel insurance to cover any unexpected changes or cancellations.",
+      
+        "content_conduct_title": "5. Conduct & Responsibilities",
+        "content_conduct_text": "All guests must respect the cultural and natural environment of our retreats. Any damage caused by negligence will be charged accordingly.",
+      
+        "content_privacy_title": "6. Privacy & Security",
+        "content_privacy_text": "Personal information provided during booking is stored securely and will not be shared with third parties without consent.",
+      
+        "content_changes_title": "7. Changes to Terms",
+        "content_changes_text": "Rural Retreats reserves the right to modify these terms at any time. Updated terms will be posted on this page.",
+      
+        "content_contact_title": "8. Contact Us",
+        "content_contact_text": "If you have any questions about these Terms & Conditions, please contact us at support@ruralretreats.com.",
+      
+        "footer_about": "We offer budget-friendly tours, curated travel experiences, and luxury escapes worldwide.",
+        "footer_quicklinks": "Quick Links",
+        "footer_home": "Home",
+        "footer_about_link": "About Us",
+        "footer_services": "Services",
+        "footer_hotels": "Hotels & Homestays",
+        "footer_guides": "Travel Guides",
+        "footer_faq": "FAQs",
+        "footer_contact": "Contact Us",
+      
+        "footer_support": "Customer Support",
+        "footer_email": "Email: support@ruralretreats.com",
+        "footer_phone": "Phone: +91 629XX XXXXX",
+        "footer_address": "Address: Q University Institute Of Technology, Burdwan-713104, West Bengal",
+      
+        "footer_follow": "Follow Us",
+        "footer_language": "Language",
+        "footer_lang_label": "Choose Language:",
+        "footer_newsletter_heading": "Newsletter",
+        "footer_newsletter": "Subscribe for exclusive travel deals!",
+        "footer_rights": "© 2025 Rural Retreats. All rights reserved. | Privacy Policy | Terms & Conditions",
+      
+        "chatbot_header": "Chat with Us",
+        "chatInput_placeholder": "Type your message...",
+        "sendMessage": "Send Message",
+        "voiceInput": "Voice Input",
+        "clearChat": "Clear Chat",
+        "backToTop" : "Go to top"
+    },
+
+    "hi":{
+        "navbar_home": "मुखपृष्ठ",
+        "navbar_services": "सेवाएँ",
+        "navbar_services_holiday": "छुट्टी पैकेज",
+        "navbar_services_bus": "बस बुकिंग",
+        "navbar_services_homestays": "होमस्टे बुकिंग",
+        "navbar_homestays": "होमस्टे",
+        "navbar_faq": "सामान्य प्रश्न",
+        "navbar_contact": "संपर्क करें",
+        "search_btn": "खोजें",
+        "login_btn": "लॉग इन",
+      
+        "heading_terms": "नियम और शर्तें",
+      
+        "content_intro_title": "1. परिचय",
+        "content_intro_text": "रूरल रिट्रीट्स में आपका स्वागत है! हमारी वेबसाइट का उपयोग करने और हमारी सेवाओं का लाभ उठाने से, आप निम्नलिखित नियम और शर्तों का पालन करने के लिए सहमत होते हैं।",
+      
+        "content_booking_title": "2. बुकिंग और भुगतान",
+        "content_booking_text": "सभी बुकिंग हमारी आधिकारिक वेबसाइट के माध्यम से की जानी चाहिए। पुष्टि से पहले भुगतान पूरा होना आवश्यक है। हम प्रमुख क्रेडिट कार्ड, PayPal और UPI लेन-देन स्वीकार करते हैं।",
+      
+        "content_cancel_title": "3. रद्दीकरण और धनवापसी",
+        "content_cancel_text": "बुकिंग तिथि से कम से कम 7 दिन पहले किए गए रद्दीकरण पर पूर्ण धनवापसी मिलेगी। अंतिम समय (48 घंटे से कम) के रद्दीकरण पर धनवापसी नहीं होगी।",
+      
+        "content_insurance_title": "4. यात्रा बीमा",
+        "content_insurance_text": "हम दृढ़ता से अनुशंसा करते हैं कि किसी भी अप्रत्याशित बदलाव या रद्दीकरण को कवर करने के लिए यात्रा बीमा खरीदें।",
+      
+        "content_conduct_title": "5. आचरण और जिम्मेदारियाँ",
+        "content_conduct_text": "सभी मेहमानों को हमारे रिट्रीट्स के सांस्कृतिक और प्राकृतिक वातावरण का सम्मान करना चाहिए। लापरवाही से हुए किसी भी नुकसान का शुल्क लिया जाएगा।",
+      
+        "content_privacy_title": "6. गोपनीयता और सुरक्षा",
+        "content_privacy_text": "बुकिंग के दौरान दी गई व्यक्तिगत जानकारी सुरक्षित रूप से संग्रहीत की जाती है और आपकी सहमति के बिना तीसरे पक्ष के साथ साझा नहीं की जाएगी।",
+      
+        "content_changes_title": "7. नियमों में परिवर्तन",
+        "content_changes_text": "रूरल रिट्रीट्स किसी भी समय इन नियमों को संशोधित करने का अधिकार सुरक्षित रखता है। अद्यतन नियम इस पृष्ठ पर पोस्ट किए जाएंगे।",
+      
+        "content_contact_title": "8. हमसे संपर्क करें",
+        "content_contact_text": "यदि आपके पास इन नियम और शर्तों के बारे में कोई प्रश्न हैं, तो कृपया हमसे support@ruralretreats.com पर संपर्क करें।",
+      
+        "footer_about": "हम किफायती पर्यटन, विशेष यात्रा अनुभव और विश्वभर में लक्जरी छुट्टियाँ प्रदान करते हैं।",
+        "footer_quicklinks": "त्वरित लिंक",
+        "footer_home": "मुखपृष्ठ",
+        "footer_about_link": "हमारे बारे में",
+        "footer_services": "सेवाएँ",
+        "footer_hotels": "होटल और होमस्टे",
+        "footer_guides": "यात्रा गाइड",
+        "footer_faq": "सामान्य प्रश्न",
+        "footer_contact": "संपर्क करें",
+      
+        "footer_support": "ग्राहक सहायता",
+        "footer_email": "ईमेल: support@ruralretreats.com",
+        "footer_phone": "फ़ोन: +91 629XX XXXXX",
+        "footer_address": "पता: क्यू यूनिवर्सिटी इंस्टीट्यूट ऑफ टेक्नोलॉजी, बर्दवान-713104, पश्चिम बंगाल",
+      
+        "footer_follow": "हमें फॉलो करें",
+        "footer_language": "भाषा",
+        "footer_lang_label": "भाषा चुनें:",
+        "footer_newsletter_heading": "न्यूज़लेटर",
+        "footer_newsletter": "विशेष यात्रा ऑफ़र के लिए सब्सक्राइब करें!",
+        "footer_rights": "© 2025 Rural Retreats. सर्वाधिकार सुरक्षित। | गोपनीयता नीति | नियम और शर्तें",
+      
+        "chatbot_header": "हमसे चैट करें",
+        "chatInput_placeholder": "अपना संदेश लिखें...",
+        "sendMessage": "संदेश भेजें",
+        "voiceInput": "वॉइस इनपुट",
+        "clearChat": "चैट साफ़ करें",
+        "backToTop" : "ऊपर जाएँ"
+    },
+
+    "bn":{
+        "navbar_home": "হোম",
+        "navbar_services": "সেবাসমূহ",
+        "navbar_services_holiday": "ছুটির প্যাকেজ",
+        "navbar_services_bus": "বাস বুকিং",
+        "navbar_services_homestays": "হোমস্টে বুকিং",
+        "navbar_homestays": "হোমস্টে",
+        "navbar_faq": "প্রশ্নোত্তর",
+        "navbar_contact": "যোগাযোগ করুন",
+        "search_btn": "অনুসন্ধান",
+        "login_btn": "লগ ইন",
+      
+        "heading_terms": "শর্তাবলী",
+      
+        "content_intro_title": "১. ভূমিকা",
+        "content_intro_text": "রুরাল রিট্রিটসে স্বাগতম! আমাদের ওয়েবসাইট ব্যবহার এবং আমাদের সেবা গ্রহণের মাধ্যমে, আপনি নিম্নলিখিত শর্তাবলীর সাথে সম্মত হচ্ছেন।",
+      
+        "content_booking_title": "২. বুকিং ও পেমেন্ট",
+        "content_booking_text": "সব বুকিং আমাদের অফিসিয়াল ওয়েবসাইটের মাধ্যমে করতে হবে। কনফার্মেশনের আগে পেমেন্ট সম্পূর্ণ করতে হবে। আমরা প্রধান ক্রেডিট কার্ড, PayPal এবং UPI লেনদেন গ্রহণ করি।",
+      
+        "content_cancel_title": "৩. বাতিলকরণ ও রিফান্ড",
+        "content_cancel_text": "বুকিংয়ের তারিখের অন্তত ৭ দিন আগে বাতিল করলে সম্পূর্ণ রিফান্ড পাওয়া যাবে। শেষ মুহূর্তে (৪৮ ঘন্টার কম সময়ে) বাতিল করলে কোনো রিফান্ড দেওয়া হবে না।",
+      
+        "content_insurance_title": "৪. ভ্রমণ বীমা",
+        "content_insurance_text": "যে কোনো অপ্রত্যাশিত পরিবর্তন বা বাতিলকরণ কভার করার জন্য আমরা ভ্রমণ বীমা কেনার জন্য দৃঢ়ভাবে সুপারিশ করি।",
+      
+        "content_conduct_title": "৫. আচরণ ও দায়িত্ব",
+        "content_conduct_text": "সব অতিথিকে আমাদের রিট্রিটের সাংস্কৃতিক ও প্রাকৃতিক পরিবেশের প্রতি সম্মান দেখাতে হবে। অবহেলার কারণে কোনো ক্ষতি হলে তার খরচ ধার্য করা হবে।",
+      
+        "content_privacy_title": "৬. গোপনীয়তা ও নিরাপত্তা",
+        "content_privacy_text": "বুকিংয়ের সময় দেওয়া ব্যক্তিগত তথ্য নিরাপদে সংরক্ষণ করা হয় এবং আপনার অনুমতি ছাড়া তৃতীয় পক্ষের সাথে শেয়ার করা হবে না।",
+      
+        "content_changes_title": "৭. শর্তাবলীর পরিবর্তন",
+        "content_changes_text": "রুরাল রিট্রিটস যেকোনো সময় এই শর্তাবলী পরিবর্তন করার অধিকার সংরক্ষণ করে। আপডেট করা শর্তাবলী এই পৃষ্ঠায় পোস্ট করা হবে।",
+      
+        "content_contact_title": "৮. আমাদের সাথে যোগাযোগ করুন",
+        "content_contact_text": "এই শর্তাবলী সম্পর্কিত কোনো প্রশ্ন থাকলে অনুগ্রহ করে support@ruralretreats.com-এ আমাদের সাথে যোগাযোগ করুন।",
+      
+        "footer_about": "আমরা বাজেট-বান্ধব ট্যুর, কিউরেটেড ভ্রমণ অভিজ্ঞতা এবং বিশ্বব্যাপী বিলাসবহুল অবকাশ প্রদান করি।",
+        "footer_quicklinks": "দ্রুত লিঙ্ক",
+        "footer_home": "হোম",
+        "footer_about_link": "আমাদের সম্পর্কে",
+        "footer_services": "সেবাসমূহ",
+        "footer_hotels": "হোটেল ও হোমস্টে",
+        "footer_guides": "ভ্রমণ গাইড",
+        "footer_faq": "প্রশ্নোত্তর",
+        "footer_contact": "যোগাযোগ করুন",
+      
+        "footer_support": "গ্রাহক সহায়তা",
+        "footer_email": "ইমেইল: support@ruralretreats.com",
+        "footer_phone": "ফোন: +91 629XX XXXXX",
+        "footer_address": "ঠিকানা: কিউ ইউনিভার্সিটি ইনস্টিটিউট অফ টেকনোলজি, বর্ধমান-713104, পশ্চিমবঙ্গ",
+      
+        "footer_follow": "আমাদের অনুসরণ করুন",
+        "footer_language": "ভাষা",
+        "footer_lang_label": "ভাষা নির্বাচন করুন:",
+        "footer_newsletter_heading": "নিউজলেটার",
+        "footer_newsletter": "বিশেষ ভ্রমণ অফারের জন্য সাবস্ক্রাইব করুন!",
+        "footer_rights": "© 2025 Rural Retreats. সর্বস্বত্ব সংরক্ষিত। | গোপনীয়তা নীতি | শর্তাবলী",
+      
+        "chatbot_header": "আমাদের সাথে চ্যাট করুন",
+        "chatInput_placeholder": "আপনার বার্তা লিখুন...",
+        "sendMessage": "বার্তা পাঠান",
+        "voiceInput": "ভয়েস ইনপুট",
+        "clearChat": "চ্যাট মুছুন",
+        "backToTop" : "উপরে যান"
+    },
+      
+    "fr":{
+        "navbar_home": "Accueil",
+        "navbar_services": "Services",
+        "navbar_services_holiday": "Forfaits vacances",
+        "navbar_services_bus": "Réservation de bus",
+        "navbar_services_homestays": "Réservation de séjours chez l'habitant",
+        "navbar_homestays": "Séjours chez l'habitant",
+        "navbar_faq": "FAQ",
+        "navbar_contact": "Contactez-nous",
+        "search_btn": "Rechercher",
+        "login_btn": "Se connecter",
+      
+        "heading_terms": "Termes et conditions",
+      
+        "content_intro_title": "1. Introduction",
+        "content_intro_text": "Bienvenue chez Rural Retreats ! En accédant à notre site Web et en utilisant nos services, vous acceptez de respecter les termes et conditions suivants.",
+      
+        "content_booking_title": "2. Réservation et paiements",
+        "content_booking_text": "Toutes les réservations doivent être effectuées via notre site officiel. Les paiements doivent être complétés avant la confirmation. Nous acceptons les principales cartes de crédit, PayPal et les transactions UPI.",
+      
+        "content_cancel_title": "3. Annulations et remboursements",
+        "content_cancel_text": "Les annulations effectuées au moins 7 jours avant la date de réservation recevront un remboursement complet. Les annulations de dernière minute (moins de 48 heures) ne sont pas remboursables.",
+      
+        "content_insurance_title": "4. Assurance voyage",
+        "content_insurance_text": "Nous recommandons vivement de souscrire une assurance voyage pour couvrir tout changement ou annulation imprévu.",
+      
+        "content_conduct_title": "5. Conduite et responsabilités",
+        "content_conduct_text": "Tous les invités doivent respecter l'environnement culturel et naturel de nos retraites. Tout dommage causé par négligence sera facturé en conséquence.",
+      
+        "content_privacy_title": "6. Confidentialité et sécurité",
+        "content_privacy_text": "Les informations personnelles fournies lors de la réservation sont stockées en toute sécurité et ne seront pas partagées avec des tiers sans consentement.",
+      
+        "content_changes_title": "7. Modifications des conditions",
+        "content_changes_text": "Rural Retreats se réserve le droit de modifier ces conditions à tout moment. Les conditions mises à jour seront publiées sur cette page.",
+      
+        "content_contact_title": "8. Contactez-nous",
+        "content_contact_text": "Si vous avez des questions concernant ces termes et conditions, veuillez nous contacter à support@ruralretreats.com.",
+      
+        "footer_about": "Nous proposons des circuits économiques, des expériences de voyage sur mesure et des séjours de luxe dans le monde entier.",
+        "footer_quicklinks": "Liens rapides",
+        "footer_home": "Accueil",
+        "footer_about_link": "À propos de nous",
+        "footer_services": "Services",
+        "footer_hotels": "Hôtels et séjours",
+        "footer_guides": "Guides de voyage",
+        "footer_faq": "FAQ",
+        "footer_contact": "Contactez-nous",
+      
+        "footer_support": "Support client",
+        "footer_email": "Email : support@ruralretreats.com",
+        "footer_phone": "Téléphone : +91 629XX XXXXX",
+        "footer_address": "Adresse : Q University Institute Of Technology, Burdwan-713104, Bengale-Occidental",
+      
+        "footer_follow": "Suivez-nous",
+        "footer_language": "Langue",
+        "footer_lang_label": "Choisir la langue :",
+        "footer_newsletter_heading": "Newsletter",
+        "footer_newsletter": "Abonnez-vous pour des offres de voyage exclusives !",
+        "footer_rights": "© 2025 Rural Retreats. Tous droits réservés. | Politique de confidentialité | Termes et conditions",
+      
+        "chatbot_header": "Discutez avec nous",
+        "chatInput_placeholder": "Tapez votre message...",
+        "sendMessage": "Envoyer le message",
+        "voiceInput": "Entrée vocale",
+        "clearChat": "Effacer la discussion",
+        "backToTop" : "Aller en haut"
+    },
+        
+     
+    "de":{
+        "navbar_home": "Startseite",
+        "navbar_services": "Dienstleistungen",
+        "navbar_services_holiday": "Urlaubspakete",
+        "navbar_services_bus": "Busbuchung",
+        "navbar_services_homestays": "Homestay-Buchung",
+        "navbar_homestays": "Homestays",
+        "navbar_faq": "FAQs",
+        "navbar_contact": "Kontakt",
+        "search_btn": "Suchen",
+        "login_btn": "Anmelden",
+      
+        "heading_terms": "Allgemeine Geschäftsbedingungen",
+      
+        "content_intro_title": "1. Einführung",
+        "content_intro_text": "Willkommen bei Rural Retreats! Durch den Zugriff auf unsere Website und die Nutzung unserer Dienstleistungen erklären Sie sich damit einverstanden, die folgenden Bedingungen einzuhalten.",
+      
+        "content_booking_title": "2. Buchung und Zahlungen",
+        "content_booking_text": "Alle Buchungen müssen über unsere offizielle Website erfolgen. Zahlungen müssen vor der Bestätigung abgeschlossen sein. Wir akzeptieren gängige Kreditkarten, PayPal und UPI-Transaktionen.",
+      
+        "content_cancel_title": "3. Stornierungen und Rückerstattungen",
+        "content_cancel_text": "Stornierungen, die mindestens 7 Tage vor dem Buchungsdatum erfolgen, erhalten eine vollständige Rückerstattung. Last-Minute-Stornierungen (weniger als 48 Stunden) sind nicht erstattungsfähig.",
+      
+        "content_insurance_title": "4. Reiseversicherung",
+        "content_insurance_text": "Wir empfehlen dringend, eine Reiseversicherung abzuschließen, um unerwartete Änderungen oder Stornierungen abzudecken.",
+      
+        "content_conduct_title": "5. Verhalten und Verantwortlichkeiten",
+        "content_conduct_text": "Alle Gäste müssen die kulturelle und natürliche Umgebung unserer Retreats respektieren. Jeglicher durch Fahrlässigkeit verursachter Schaden wird entsprechend in Rechnung gestellt.",
+      
+        "content_privacy_title": "6. Datenschutz und Sicherheit",
+        "content_privacy_text": "Die während der Buchung bereitgestellten persönlichen Daten werden sicher gespeichert und ohne Zustimmung nicht an Dritte weitergegeben.",
+      
+        "content_changes_title": "7. Änderungen der Bedingungen",
+        "content_changes_text": "Rural Retreats behält sich das Recht vor, diese Bedingungen jederzeit zu ändern. Aktualisierte Bedingungen werden auf dieser Seite veröffentlicht.",
+      
+        "content_contact_title": "8. Kontaktieren Sie uns",
+        "content_contact_text": "Wenn Sie Fragen zu diesen Allgemeinen Geschäftsbedingungen haben, kontaktieren Sie uns bitte unter support@ruralretreats.com.",
+      
+        "footer_about": "Wir bieten preisgünstige Touren, kuratierte Reiseerlebnisse und luxuriöse Urlaube weltweit an.",
+        "footer_quicklinks": "Schnellzugriff",
+        "footer_home": "Startseite",
+        "footer_about_link": "Über uns",
+        "footer_services": "Dienstleistungen",
+        "footer_hotels": "Hotels & Homestays",
+        "footer_guides": "Reiseführer",
+        "footer_faq": "FAQs",
+        "footer_contact": "Kontakt",
+      
+        "footer_support": "Kundensupport",
+        "footer_email": "E-Mail: support@ruralretreats.com",
+        "footer_phone": "Telefon: +91 629XX XXXXX",
+        "footer_address": "Adresse: Q University Institute Of Technology, Burdwan-713104, Westbengalen",
+      
+        "footer_follow": "Folgen Sie uns",
+        "footer_language": "Sprache",
+        "footer_lang_label": "Sprache wählen:",
+        "footer_newsletter_heading": "Newsletter",
+        "footer_newsletter": "Abonnieren Sie exklusive Reiseangebote!",
+        "footer_rights": "© 2025 Rural Retreats. Alle Rechte vorbehalten. | Datenschutzrichtlinie | Allgemeine Geschäftsbedingungen",
+      
+        "chatbot_header": "Chatten Sie mit uns",
+        "chatInput_placeholder": "Schreiben Sie Ihre Nachricht...",
+        "sendMessage": "Nachricht senden",
+        "voiceInput": "Spracheingabe",
+        "clearChat": "Chat löschen",
+        "backToTop" : "Nach oben"
+    },
+
+
+    "es":{
+        "navbar_home": "Inicio",
+        "navbar_services": "Servicios",
+        "navbar_services_holiday": "Paquetes vacacionales",
+        "navbar_services_bus": "Reserva de autobús",
+        "navbar_services_homestays": "Reserva de alojamientos",
+        "navbar_homestays": "Alojamientos",
+        "navbar_faq": "Preguntas frecuentes",
+        "navbar_contact": "Contáctanos",
+        "search_btn": "Buscar",
+        "login_btn": "Iniciar sesión",
+      
+        "heading_terms": "Términos y condiciones",
+      
+        "content_intro_title": "1. Introducción",
+        "content_intro_text": "¡Bienvenido a Rural Retreats! Al acceder a nuestro sitio web y utilizar nuestros servicios, usted acepta cumplir con los siguientes términos y condiciones.",
+      
+        "content_booking_title": "2. Reservas y pagos",
+        "content_booking_text": "Todas las reservas deben realizarse a través de nuestro sitio web oficial. Los pagos deben completarse antes de la confirmación. Aceptamos tarjetas de crédito principales, PayPal y transacciones UPI.",
+      
+        "content_cancel_title": "3. Cancelaciones y reembolsos",
+        "content_cancel_text": "Las cancelaciones realizadas al menos 7 días antes de la fecha de la reserva recibirán un reembolso completo. Las cancelaciones de última hora (menos de 48 horas) no son reembolsables.",
+      
+        "content_insurance_title": "4. Seguro de viaje",
+        "content_insurance_text": "Recomendamos encarecidamente contratar un seguro de viaje para cubrir cualquier cambio o cancelación imprevisto.",
+      
+        "content_conduct_title": "5. Conducta y responsabilidades",
+        "content_conduct_text": "Todos los huéspedes deben respetar el entorno cultural y natural de nuestros retiros. Cualquier daño causado por negligencia será cobrado en consecuencia.",
+      
+        "content_privacy_title": "6. Privacidad y seguridad",
+        "content_privacy_text": "La información personal proporcionada durante la reserva se almacena de forma segura y no se compartirá con terceros sin su consentimiento.",
+      
+        "content_changes_title": "7. Cambios en los términos",
+        "content_changes_text": "Rural Retreats se reserva el derecho de modificar estos términos en cualquier momento. Los términos actualizados se publicarán en esta página.",
+      
+        "content_contact_title": "8. Contáctenos",
+        "content_contact_text": "Si tiene alguna pregunta sobre estos términos y condiciones, contáctenos en support@ruralretreats.com.",
+      
+        "footer_about": "Ofrecemos recorridos económicos, experiencias de viaje seleccionadas y escapadas de lujo en todo el mundo.",
+        "footer_quicklinks": "Enlaces rápidos",
+        "footer_home": "Inicio",
+        "footer_about_link": "Sobre nosotros",
+        "footer_services": "Servicios",
+        "footer_hotels": "Hoteles y alojamientos",
+        "footer_guides": "Guías de viaje",
+        "footer_faq": "Preguntas frecuentes",
+        "footer_contact": "Contáctanos",
+      
+        "footer_support": "Atención al cliente",
+        "footer_email": "Correo: support@ruralretreats.com",
+        "footer_phone": "Teléfono: +91 629XX XXXXX",
+        "footer_address": "Dirección: Q University Institute Of Technology, Burdwan-713104, Bengala Occidental",
+      
+        "footer_follow": "Síguenos",
+        "footer_language": "Idioma",
+        "footer_lang_label": "Elige idioma:",
+        "footer_newsletter_heading": "Boletín",
+        "footer_newsletter": "¡Suscríbete para obtener ofertas de viaje exclusivas!",
+        "footer_rights": "© 2025 Rural Retreats. Todos los derechos reservados. | Política de privacidad | Términos y condiciones",
+      
+        "chatbot_header": "Chatea con nosotros",
+        "chatInput_placeholder": "Escribe tu mensaje...",
+        "sendMessage": "Enviar mensaje",
+        "voiceInput": "Entrada de voz",
+        "clearChat": "Borrar chat",
+        "backToTop" : "Ir arriba"
+    }
+
+}

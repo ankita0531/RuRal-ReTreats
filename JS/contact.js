@@ -1,4 +1,3 @@
-
 function subscribeNewsletter() {
     let email = document.getElementById("newsletter-email").value.trim();
     if (email === "") {
@@ -58,45 +57,6 @@ function closeConfirmation() {
         confirmationBox.remove();
     }
 }
-function loadGoogleTranslate() {
-    if (!window.google || !window.google.translate) {
-        let script = document.createElement("script");
-        script.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateInit";
-        document.body.appendChild(script);
-    } else {
-        googleTranslateInit();
-    }
-}
-function googleTranslateInit() {
-    new google.translate.TranslateElement({
-        pageLanguage: 'en',
-        autoDisplay: false
-    }, 'google_translate_element');
-    setTimeout(fixGoogleTranslateStyles, 1000);
-}
-function changeLanguage(lang) {
-    let googleTranslateDropdown = document.querySelector(".goog-te-combo");
-    if (googleTranslateDropdown) {
-        googleTranslateDropdown.value = lang;
-        googleTranslateDropdown.dispatchEvent(new Event("change"));
-        setTimeout(fixGoogleTranslateStyles, 1000);
-    } else {
-        console.error("Google Translate dropdown not found!");
-    }
-}
-document.getElementById("language-select").addEventListener("change", function () {
-    let selectedLang = this.value;
-    setTimeout(() => changeLanguage(selectedLang), 500);
-});
-function fixGoogleTranslateStyles() {
-    document.querySelectorAll("*").forEach(element => {
-        element.style.fontSize = "";
-        element.style.lineHeight = "";
-        element.style.letterSpacing = "";
-    });
-}
-window.addEventListener("load", loadGoogleTranslate);
-
 
 document.getElementById("contactForm").addEventListener("submit", function (event) {
     event.preventDefault();

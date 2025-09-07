@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
 <head>
   <!--  Basic Meta Tags -->
   <meta charset="UTF-8" />
@@ -55,11 +55,12 @@
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   
   <!-- Page-specific and shared JS -->
-  <script src="./JS/about.js"></script>
-  <script defer src="./JS/navbar.js"></script>
-</head>
+  <script src="./JS/about.js" defer></script>
+  <script src="./JS/navbar.js" defer></script>
+  <script src="./JS/translate.js" defer></script>
 
-<body>
+</head>
+<body data-page = "about">
   <header>
     <nav class="navbar">
       <div class="nav-container">
@@ -72,27 +73,27 @@
         </div>
 
         <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
+          <li><a id = "navbar_home" href="index.html">Home</a></li>
           <li class="dropdown">
-            <a href="services.html">Services <i class="fas fa-chevron-down"></i></a>
+            <a id = "navbar_services" href="services.html">Services <i class="fas fa-chevron-down"></i></a>
             <ul class="dropdown-menu">
-              <li><a href="services.html#tours">Holiday Packages</a></li>
-              <li><a href="services.html#bus">Bus Booking</a></li>
-              <li><a href="services.html#homestays">Homestays Booking</a></li>
+              <li><a id = "navbar_holiday" href="services.html#tours">Holiday Packages</a></li>
+              <li><a id = "navbar_bus" href="services.html#bus">Bus Booking</a></li>
+              <li><a id = "navbar_homestay" href="services.html#homestays">Homestays Booking</a></li>
             </ul>
           </li>
-          <li><a href="homestays.html">HomeStays</a></li>
-          <li><a href="faq.html">FAQs</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a id = "navbar_homestays" href="homestays.html">HomeStays</a></li>
+          <li><a id = "navbar_faq" href="faq.html">FAQs</a></li>
+          <li><a id = "navbar_contact" href="contact.html">Contact Us</a></li>
         </ul>
 
         <div class="right-section">
           <div class="search-bar">
             <input type="text" placeholder="Search..." id="search-input" />
-            <button title="search"><i class="fas fa-search"></i></button>
+            <button id = "search_btn" title="search"><i class="fas fa-search"></i></button>
           </div>
           <div class="auth-buttons">
-            <button class="login-btn" onclick="window.location.href='login.html'">
+            <button class="login-btn" id = "login_btn" onclick="window.location.href='login.html'">
               Log In
             </button>
           </div>
@@ -105,15 +106,15 @@
 
       <div class="mobile-search-bar">
         <input type="text" placeholder="Search..." id="mobile-search-input" />
-        <button title="search"><i class="fas fa-search"></i></button>
+        <button id = "search_btn" title="search"><i class="fas fa-search"></i></button>
       </div>
 
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="homestays.html">HomeStays</a></li>
-        <li><a href="faq.html">FAQs</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a id = "navbar_home" href="index.html">Home</a></li>
+        <li><a id = "navbar_services" href="services.html">Services</a></li>
+        <li><a id = "navbar_homestays" href="homestays.html">HomeStays</a></li>
+        <li><a id = "navbar_faq" href="faq.html">FAQs</a></li>
+        <li><a id = "navbar_contact" href="contact.html">Contact Us</a></li>
       </ul>
     </div>
   </header>
@@ -121,29 +122,29 @@
   <section class="hero">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <h1>
-        Discover the Beauty of the World with <span>Rural Retreats</span>
+      <h1 id = "hero_title" >
+        Discover the Beauty of the World with <span translate="no">Rural Retreats</span>
       </h1>
-      <p>
+      <p id = "hero_sub">
         Unveiling breathtaking rural landscapes and immersive cultural
         experiences.
       </p>
-      <a href="#about" class="cta-button">Explore More</a>
+      <a href="#about" id = "explore_btn" class="cta-button">Explore More</a>
     </div>
   </section>
 
   <section class="brand-intro" id="about">
     <div class="brand-content">
-      <h2>Our Story</h2>
-      <p>
-        <b>Rural Retreats</b> was founded with a vision to connect travelers
+      <h2 id = "our_story_title">Our Story</h2>
+      <p id = "our_story_p1">
+        <b translate="no">Rural Retreats</b> was founded with a vision to connect travelers
         with breathtaking <b>rural landscapes</b> and
         <b>immersive cultural experiences</b>. Since our inception, we have
         been dedicated to offering <b>eco-friendly</b> and
         <b>authentic travel experiences</b> that bring you closer to
         <b>nature</b> and <b>heritage</b>.
       </p>
-      <p>
+      <p id = "our_story_p2">
         Our mission is to promote <b>sustainable tourism</b> while giving back
         to local communities. We believe in travel that enriches the
         <b>soul</b>, <b>protects the environment</b>, and <b>supports</b>
@@ -158,13 +159,13 @@
   </section>
 
   <section class="mission-vision-section">
-    <h2 class="section-title">Our Mission, Vision & Core Values</h2>
+    <h2  id = "mission_section_title" class="section-title">Our Mission, Vision & Core Values</h2>
 
     <div class="mission-vision-container">
       <div class="card">
         <div class="icon"><i class="fas fa-bullseye"></i></div>
-        <h3>🎯 Our Mission</h3>
-        <p>
+        <h3 id = "mission_title">🎯 Our Mission</h3>
+        <p id = "mission_text">
           To provide unforgettable travel experiences that connect people with
           the beauty of nature, culture, and adventure.
         </p>
@@ -172,8 +173,8 @@
 
       <div class="card">
         <div class="icon"><i class="fas fa-globe"></i></div>
-        <h3>🌎 Our Vision</h3>
-        <p>
+        <h3 id = "vision_title">🌎 Our Vision</h3>
+        <p id = "vision_text">
           To make travel accessible, sustainable, and enriching for everyone,
           while preserving the world's natural and cultural heritage.
         </p>
@@ -181,20 +182,20 @@
 
       <div class="card">
         <div class="icon"><i class="fas fa-star"></i></div>
-        <h3>🌟 Core Values</h3>
+        <h3 id = "values_title">🌟 Core Values</h3>
         <ul>
-          <li>Customer Commitment</li>
-          <li>Sustainability & Eco-Tourism</li>
-          <li>Adventure & Discovery</li>
-          <li>Excellence in Service</li>
+          <li id = "values_customer">Customer Commitment</li>
+          <li id = "values_sustainability">Sustainability & Eco-Tourism</li>
+          <li id = "values_adventure">Adventure & Discovery</li>
+          <li id = "values_service">Excellence in Service</li>
         </ul>
       </div>
     </div>
   </section>
 
   <section class="impact-section">
-    <h2>Our Impact & Community Involvement</h2>
-    <p class="impact-intro">
+    <h2 id = "impact_title">Our Impact & Community Involvement</h2>
+    <p id = "impact_intro" class="impact-intro">
       We believe in responsible tourism that supports local communities,
       preserves cultural heritage, and promotes sustainability.
     </p>
@@ -202,8 +203,8 @@
     <div class="impact-container">
       <div class="impact-card">
         <div class="icon"><i class="fas fa-leaf"></i></div>
-        <h3>Eco-Tourism & Sustainability</h3>
-        <p>
+        <h3 id = "impact_eco">Eco-Tourism & Sustainability</h3>
+        <p id = "impact_eco_text">
           We are committed to minimizing our carbon footprint and promoting
           eco-friendly travel. Our sustainable lodges, carbon offset programs,
           and conservation efforts ensure responsible tourism.
@@ -212,8 +213,8 @@
 
       <div class="impact-card">
         <div class="icon"><i class="fas fa-hand-holding-heart"></i></div>
-        <h3>Supporting Local Communities</h3>
-        <p>
+        <h3 id = "impact_local">Supporting Local Communities</h3>
+        <p id = "impact_local_text">
           We work with local artisans, homestays, and businesses to empower
           communities, create job opportunities, and preserve cultural
           traditions.
@@ -222,8 +223,8 @@
 
       <div class="impact-card">
         <div class="icon"><i class="fas fa-handshake"></i></div>
-        <h3>Trusted Partnerships</h3>
-        <p>
+        <h3 id = "impact_trust">Trusted Partnerships</h3>
+        <p id = "impact_trust_text">
           We collaborate with international travel organizations,
           environmental groups, and social enterprises to make a positive
           impact worldwide.
@@ -237,79 +238,79 @@
           <span class="emoji">🌍</span>
           <span class="counter" data-target="1000">0</span>+
         </h3>
-        <p>Happy Travelers</p>
+        <p id = "stat_travelers">Happy Travelers</p>
       </div>
       <div class="stat-item">
         <h3>
           <span class="emoji">📍</span>
           <span class="counter" data-target="20">0</span>+
         </h3>
-        <p>Unique Destinations</p>
+        <p id = "stat_destinations">Unique Destinations</p>
       </div>
       <div class="stat-item">
         <h3>
           <span class="emoji">🌿</span>
           <span class="counter" data-target="100">0</span>%
         </h3>
-        <p>Sustainable Travel Commitment</p>
+        <p id = "stat_commitment">Sustainable Travel Commitment</p>
       </div>
       <div class="stat-item">
         <h3>
           <span class="emoji">🤝</span>
           <span class="counter" data-target="10">0</span>+
         </h3>
-        <p>Community Partnerships</p>
+        <p id = "stat_partnerships">Community Partnerships</p>
       </div>
     </div>
   </section>
 
   <section class="gallery-section">
-    <h2>Explore Our Journeys</h2>
-    <p class="gallery-intro">
+    <h2 id = "gallery_title">Explore Our Journeys</h2>
+    <p id = "gallery_intro" class="gallery-intro">
       Discover the breathtaking landscapes, vibrant cultures, and adventurous
       experiences captured by our travelers.
     </p>
 
     <div class="gallery-filters">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="beach">Beaches</button>
-      <button class="filter-btn" data-filter="mountain">Mountains</button>
-      <button class="filter-btn" data-filter="Villages">
+      <button class="filter-btn active" data-filter="all"  id = "filter_all">All</button>
+      <button class="filter-btn" data-filter="beach" id = "filter_beach">Beaches</button>
+      <button class="filter-btn" data-filter="mountain" id = "filter_mountain">Mountains</button>
+      <button class="filter-btn" data-filter="Villages" id = "filter_villages">
         Cultural Villages
       </button>
-      <button class="filter-btn" data-filter="Caves">Caves</button>
+      <button class="filter-btn" data-filter="Caves" id = "filter_caves">Caves</button>
     </div>
 
     <div class="gallery-grid">
       <div class="gallery-item beach">
-        <img src="https://www.explorebees.com/uploads/Calangute%20Beach.jpg" alt="Calangute Beach" />
+        <img id = "gallery_caption_calangute" src="https://www.explorebees.com/uploads/Calangute%20Beach.jpg" alt="Calangute Beach" />
       </div>
       <div class="gallery-item mountain">
-        <img src="https://www.mountainhomestays.com/wp-content/uploads/2020/11/Alakol_guesthouse_3-3-800x793.jpg"
+        <img id = "gallery_caption_kyrgyzstan" src="https://www.mountainhomestays.com/wp-content/uploads/2020/11/Alakol_guesthouse_3-3-800x793.jpg"
           alt="Kyrgyzstan" />
       </div>
       <div class="gallery-item Villages">
-        <img src="https://static.toiimg.com/thumb/93903240/Munsiyari.jpg?width=1200&height=900"
+        <img id = "gallery_caption_munsiyari"  src="https://static.toiimg.com/thumb/93903240/Munsiyari.jpg?width=1200&height=900"
           alt="munsiyari uttarakhand" />
       </div>
       <div class="gallery-item Caves">
-        <img
+        <img id = "gallery_caption_banashankari"
           src="https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffca480d4-25f4-4733-b57b-748fdaaae02b_1200x821.jpeg"
           alt="Banashankari Temple and Badami Museum" />
       </div>
       <div class="gallery-item beach">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-khLoCvBCo4_L2EJIP-1I6vsjd3A2CNhJUQ&s"
+        <img id = "gallery_caption_palolem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-khLoCvBCo4_L2EJIP-1I6vsjd3A2CNhJUQ&s"
           alt="Palolem Beach" />
       </div>
       <div class="gallery-item mountain">
-        <img src="https://www.mountainhomestays.com/wp-content/uploads/2025/01/IMG-20241215-WA0045-800x813.jpg"
+        <img id = "gallery_caption_pangong" src="https://www.mountainhomestays.com/wp-content/uploads/2025/01/IMG-20241215-WA0045-800x813.jpg"
           alt="Eco Residence, Pangong" />
       </div>
       <div class="gallery-item Villages">
-        <img src="https://static.toiimg.com/photo/78315598.cms" alt="khonoma the green village in nagaland" />
+        <img id = "gallery_caption_khonoma"  src="https://static.toiimg.com/photo/78315598.cms" alt="khonoma the green village in nagaland" />
       </div>
       <div class="gallery-item Caves">
-        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/9b/6a/b8/caption.jpg?w=1200&h=-1&s=1"
+        <img id = "gallery_caption_ajanta"  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/9b/6a/b8/caption.jpg?w=1200&h=-1&s=1"
           alt="Ajanta Ellora Caves" />
       </div>
     </div>
@@ -324,28 +325,28 @@
 
   <section class="cta-section">
     <div class="cta-content">
-      <h2>Plan Your Next Trip With Us</h2>
-      <p>
+      <h2 id = "cta_title">Plan Your Next Trip With Us</h2>
+      <p id = "cta_text">
         Discover breathtaking destinations, immersive experiences, and
         personalized travel packages. Let’s make your next adventure
         unforgettable!
       </p>
 
       <div class="cta-buttons">
-        <a href="book-now.html" class="cta-btn primary-btn">✈ Plan a Trip</a>
-        <a href="contact.html" class="cta-btn secondary-btn">📞 Contact an Expert</a>
+        <a href="book-now.html" class="cta-btn primary-btn" id = "cta_plan">✈ Plan a Trip</a>
+        <a href="contact.html" class="cta-btn secondary-btn" id = "cta_contact">📞 Contact an Expert</a>
       </div>
 
       <div class="newsletters">
-        <h3>Subscribe for Exclusive Travel Deals!</h3>
+        <h3 id = "newsletter_title">Subscribe for Exclusive Travel Deals!</h3>
         <div class="newsletter-form">
-          <input type="email" id="newsletter-emails" placeholder="Enter your email" />
-          <button id="subscribe-btn">Subscribe</button>
+          <input type="email" id="newsletter_emails" placeholder="Enter your email" />
+          <button id="subscribe_btn">Subscribe</button>
         </div>
       </div>
 
       <div class="social-media">
-        <h3>Connect with Us</h3>
+        <h3 id = "connect_title">Connect with Us</h3>
         <div class="social-iconsss">
           <a href="#" class="social-iconss" title="Facebook"><i class="fab fa-facebook"></i></a>
           <a href="#" class="social-iconss" title="Instagram"><i class="fab fa-instagram"></i></a>
@@ -363,31 +364,31 @@
       <!-- First Row: Rural Retreats, Quick Links, Customer Support -->
       <div class="footer-row">
         <div class="footer-section about">
-          <h3 class="footer-title">Rural Retreats</h3>
-          <p>
+          <h3 class="footer-title" id = "footer_brand" translate = "no">Rural Retreats </h3>
+          <p id = "footer_about">
             We offer budget-friendly tours, curated travel experiences, and
             luxury escapes worldwide.
           </p>
         </div>
 
         <div class="footer-section links">
-          <h4>Quick Links</h4>
+          <h4 id = "footer_quicklinks">Quick Links</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="homestays.html">Hotels & Homestays</a></li>
-            <li><a href="#blog-highlights">Travel Guides</a></li>
-            <li><a href="faq.html">FAQs</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a id = "footer_home" href="index.html">Home</a></li>
+            <li><a id = "footer_about_link" href="about.html">About Us</a></li>
+            <li><a id = "footer_services" href="services.html">Services</a></li>
+            <li><a id = "footer_hotels" href="homestays.html">Hotels & Homestays</a></li>
+            <li><a id = "footer_guides" href="#blog-highlights">Travel Guides</a></li>
+            <li><a id = "footer_faq" href="faq.html">FAQs</a></li>
+            <li><a id = "footer_contact" href="contact.html">Contact Us</a></li>
           </ul>
         </div>
 
         <div class="footer-section contact">
-          <h4>Customer Support</h4>
-          <p>Email: <a href="#">support@ruralretreats.com</a></p>
-          <p>Phone: <a href="tel:+91629XXXXXXX">+91 629XX XXXXX</a></p>
-          <p>
+          <h4 id = "footer_support">Customer Support</h4>
+          <p id = "footer_email">Email: <a href="#">support@ruralretreats.com</a></p>
+          <p id = "footer_phone">Phone: <a href="tel:+91629XXXXXXX">+91 629XX XXXXX</a></p>
+          <p id = "footer_address">
             Address: Q University Institute Of Technology, Burdwan-713104,
             West Bengal
           </p>
@@ -397,7 +398,7 @@
       <!-- Second Row: Social Media, Language Selector, Newsletter -->
       <div class="footer-row">
         <div class="footer-section social-media">
-          <h4>Follow Us</h4>
+          <h4 id = "footer_follow">Follow Us</h4>
           <div class="social-icons">
             <a href="#" class="youtube" title="youtube"><i class="fa-brands fa-youtube"></i></a>
             <a href="#" class="instagram" title="instagram"><i class="fa-brands fa-instagram"></i></a>
@@ -407,43 +408,34 @@
         </div>
 
         <div class="footer-section language-selector">
-          <h4>Language</h4>
-          <label for="language-select">Choose Language:</label>
+          <h4 id = "footer_language">Language</h4>
+          <label id = "footer_lang_label" for="language-select">Choose Language:</label>
           <select id="language-select">
-            <option>English</option>
-            <option>Bengali</option>
-            <option>Hindi</option>
-            <option>French</option>
-            <option>Spanish</option>
-            <option>German</option>
+              <option value="en">English</option>
+              <option value="bn">Bengali</option>
+              <option value="hi">Hindi</option>
+              <option value="fr">French</option>
+              <option value="es">Spanish</option>
+              <option value="de">German</option>
           </select>
         </div>
 
-          <div class="footer-section">
-            <h4>Newsletter</h4>
-            <p>Subscribe for exclusive travel deals!</p>
-            <div class="newsletter">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                id="newsletter-email"
-                required
-              />
-              <button
-                type="submit"
-                class="footer-newsletter-btn"
-                onclick="subscribeNewsletter()"
-              >
-                <b>Subscribe</b>
-              </button>
-            </div>
+        <div class="footer-section newsletter">
+          <h4 id = "footer_newsletter_heading">Newsletter</h4>
+          <p id = "footer_newsletter">Subscribe for exclusive travel deals!</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" id="newsletter-email" required />
+            <button type="submit" class="footer-newsletter-btn" id = "footer-newsletter-btn"onclick="subscribeNewsletter()">
+              <b>Subscribe</b>
+            </button>
+
           </div>
         </div>
       </div>
 
     <div class="footer-bottom">
-      <p>
-        &copy; 2025 Rural Retreats. All rights reserved. |
+      <p id = "footer_rights">
+        &copy; 2025 <span translate="no">Rural Retreats.</span>  All rights reserved. |
         <a href="pp.html">Privacy Policy</a> |
         <a href="t&c.html">Terms & Conditions</a>
       </p>
@@ -459,7 +451,7 @@
   <div id="chatModal" class="chatbot-modal">
     <div class="chatbot-modal-content">
       <div class="chatbot-header">
-        <h3>Chat with Us</h3>
+        <h3 id = "chatbot_header">Chat with Us</h3>
         <span class="close-chatbot">&times;</span>
       </div>
       <div class="chatbot-body">

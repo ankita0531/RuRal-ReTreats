@@ -1,0 +1,529 @@
+{
+    "en":{
+        "menu_toggle": "Menu",
+        "navbar_home": "Home",
+        "navbar_services": "Services",
+        "navbar_holiday": "Holiday Packages",
+        "navbar_bus": "Bus Booking",
+        "navbar_homestay": "Homestays Booking",
+        "navbar_homestays": "HomeStays",
+        "navbar_faq": "FAQs",
+        "navbar_contact": "Contact Us",
+      
+        "search-input_placeholder": "Search...",
+        "search_btn": "Search",
+        "login_btn": "Log In",
+      
+        "mobile_menu_close": "Close",
+        "mobile_search_input": "Search...",
+      
+        "heading_privacy": "Privacy Policy",
+      
+        "content_intro": "1. Introduction",
+        "content_intro_text": "At Rural Retreats, we respect your privacy and are committed to protecting your personal data.",
+      
+        "content_info": "2. Information We Collect",
+        "content_info_text": "We collect the following types of information when you use our services:",
+        "content_info_text1": "Personal details (name, email, phone number)",
+        "content_info_text2": "Payment information for booking transactions",
+        "content_info_text3": "Cookies and usage data for improving our website",
+      
+        "content_info_use": "3. How We Use Your Information",
+        "content_info_use_text": "Your information is used for:",
+        "content_info_use_text1": "Processing bookings and payments",
+        "content_info_use_text2": "Providing customer support",
+        "content_info_use_text3": "Sending promotional offers and travel updates",
+        "content_info_use_text4": "Improving our website experience",
+      
+        "content_info_sharing": "4. Sharing Your Information",
+        "content_info_sharing_text": "We do not sell your data. Your information is shared only with:",
+        "content_info_sharing_text1": "Payment processing companies",
+        "content_info_sharing_text2": "Travel partners for booking confirmation",
+        "content_info_sharing_text3": "Legal authorities if required by law",
+      
+        "content_data": "5. Data Security",
+        "content_data_text": "We implement strong security measures to protect your data from unauthorized access.",
+      
+        "content_rights": "6. Your Rights",
+        "content_rights_text": "You have the right to request access, correction, or deletion of your personal data. To do so, email us at support@ruralretreats.com.",
+      
+        "content_privacy_changes": "7. Changes to Privacy Policy",
+        "content_privacy_changes_text": "We may update this policy from time to time. Please check this page for the latest version.",
+      
+        "content_contact": "8. Contact Us",
+        "content_contact_text": "If you have any questions about our Privacy Policy, contact us at support@ruralretreats.com.",
+      
+        "footer_about": "We offer budget-friendly tours, curated travel experiences, and luxury escapes worldwide.",
+        "footer_quicklinks": "Quick Links",
+        "footer_home": "Home",
+        "footer_about_link": "About Us",
+        "footer_services": "Services",
+        "footer_hotels": "Hotels & Homestays",
+        "footer_guides": "Travel Guides",
+        "footer_faq": "FAQs",
+        "footer_contact": "Contact Us",
+      
+        "footer_support": "Customer Support",
+        "footer_email": "Email: support@ruralretreats.com",
+        "footer_phone": "Phone: +91 629XX XXXXX",
+        "footer_address": "Address: Q University Institute Of Technology, Burdwan-713104, West Bengal",
+      
+        "footer_follow": "Follow Us",
+        "footer_language": "Language",
+        "footer_lang_label": "Choose Language:",
+        "footer_newsletter_heading": "Newsletter",
+        "footer_newsletter": "Subscribe for exclusive travel deals!",
+      
+        "footer_rights": "© 2025 Rural Retreats. All rights reserved. | Privacy Policy | Terms & Conditions",
+      
+        "chatbot_header": "Chat with Us",
+        "typingIndicator": "🤖 Bot is typing...",
+        "chatInput_placeholder": "Type your message...",
+        "sendMessage": "Send Message",
+        "voiceInput": "Voice Input",
+        "clearChat": "Clear Chat",
+      
+        "backToTop" : "Go to top"
+    },
+      
+
+    "hi":{
+        "menu_toggle": "मेनू",
+        "navbar_home": "होम",
+        "navbar_services": "सेवाएँ",
+        "navbar_holiday": "हॉलिडे पैकेज",
+        "navbar_bus": "बस बुकिंग",
+        "navbar_homestay": "होमस्टे बुकिंग",
+        "navbar_homestays": "होमस्टे",
+        "navbar_faq": "सामान्य प्रश्न",
+        "navbar_contact": "संपर्क करें",
+      
+        "search-input_placeholder": "खोजें...",
+        "search_btn": "खोजें",
+        "login_btn": "लॉग इन",
+      
+        "mobile_menu_close": "बंद करें",
+        "mobile_search_input": "खोजें...",
+      
+        "heading_privacy": "गोपनीयता नीति",
+      
+        "content_intro": "1. परिचय",
+        "content_intro_text": "Rural Retreats में, हम आपकी गोपनीयता का सम्मान करते हैं और आपके व्यक्तिगत डेटा की सुरक्षा के लिए प्रतिबद्ध हैं।",
+      
+        "content_info": "2. हम कौन सी जानकारी एकत्र करते हैं",
+        "content_info_text": "जब आप हमारी सेवाओं का उपयोग करते हैं तो हम निम्न प्रकार की जानकारी एकत्र करते हैं:",
+        "content_info_text1": "व्यक्तिगत विवरण (नाम, ईमेल, फोन नंबर)",
+        "content_info_text2": "बुकिंग लेनदेन के लिए भुगतान संबंधी जानकारी",
+        "content_info_text3": "हमारी वेबसाइट को बेहतर बनाने के लिए कुकीज़ और उपयोग डेटा",
+      
+        "content_info_use": "3. हम आपकी जानकारी का उपयोग कैसे करते हैं",
+        "content_info_use_text": "आपकी जानकारी का उपयोग किया जाता है:",
+        "content_info_use_text1": "बुकिंग और भुगतान प्रक्रिया के लिए",
+        "content_info_use_text2": "ग्राहक सहायता प्रदान करने के लिए",
+        "content_info_use_text3": "प्रचारक ऑफ़र और यात्रा अपडेट भेजने के लिए",
+        "content_info_use_text4": "हमारी वेबसाइट के अनुभव को बेहतर बनाने के लिए",
+      
+        "content_info_sharing": "4. आपकी जानकारी साझा करना",
+        "content_info_sharing_text": "हम आपका डेटा नहीं बेचते हैं। आपकी जानकारी केवल इनसे साझा की जाती है:",
+        "content_info_sharing_text1": "भुगतान प्रसंस्करण कंपनियाँ",
+        "content_info_sharing_text2": "बुकिंग की पुष्टि के लिए यात्रा साझेदार",
+        "content_info_sharing_text3": "कानूनी अधिकारियों के साथ (यदि कानून द्वारा आवश्यक हो)",
+      
+        "content_data": "5. डेटा सुरक्षा",
+        "content_data_text": "हम आपके डेटा को अनधिकृत पहुँच से बचाने के लिए मजबूत सुरक्षा उपाय लागू करते हैं।",
+      
+        "content_rights": "6. आपके अधिकार",
+        "content_rights_text": "आपको अपने व्यक्तिगत डेटा तक पहुँच, सुधार या उसे हटाने का अनुरोध करने का अधिकार है। ऐसा करने के लिए हमें support@ruralretreats.com पर ईमेल करें।",
+      
+        "content_privacy_changes": "7. गोपनीयता नीति में परिवर्तन",
+        "content_privacy_changes_text": "हम समय-समय पर इस नीति को अपडेट कर सकते हैं। नवीनतम संस्करण के लिए कृपया इस पृष्ठ की जाँच करें।",
+      
+        "content_contact": "8. हमसे संपर्क करें",
+        "content_contact_text": "यदि आपको हमारी गोपनीयता नीति के बारे में कोई प्रश्न है, तो support@ruralretreats.com पर हमसे संपर्क करें।",
+      
+        "footer_about": "हम बजट-अनुकूल टूर, चुने हुए यात्रा अनुभव और लग्ज़री छुट्टियाँ प्रदान करते हैं।",
+        "footer_quicklinks": "त्वरित लिंक",
+        "footer_home": "होम",
+        "footer_about_link": "हमारे बारे में",
+        "footer_services": "सेवाएँ",
+        "footer_hotels": "होटल और होमस्टे",
+        "footer_guides": "यात्रा गाइड",
+        "footer_faq": "सामान्य प्रश्न",
+        "footer_contact": "संपर्क करें",
+      
+        "footer_support": "ग्राहक सहायता",
+        "footer_email": "ईमेल: support@ruralretreats.com",
+        "footer_phone": "फ़ोन: +91 629XX XXXXX",
+        "footer_address": "पता: क्यू यूनिवर्सिटी इंस्टीट्यूट ऑफ टेक्नोलॉजी, बर्दवान-713104, पश्चिम बंगाल",
+      
+        "footer_follow": "हमें फॉलो करें",
+        "footer_language": "भाषा",
+        "footer_lang_label": "भाषा चुनें:",
+        "footer_newsletter_heading": "न्यूज़लेटर",
+        "footer_newsletter": "विशेष यात्रा सौदों के लिए सदस्यता लें!",
+      
+        "footer_rights": "© 2025 Rural Retreats. सभी अधिकार सुरक्षित। | गोपनीयता नीति | नियम और शर्तें",
+      
+        "chatbot_header": "हमसे चैट करें",
+        "typingIndicator": "🤖 बॉट टाइप कर रहा है...",
+        "chatInput_placeholder": "अपना संदेश लिखें...",
+        "sendMessage": "संदेश भेजें",
+        "voiceInput": "वॉइस इनपुट",
+        "clearChat": "चैट साफ़ करें",
+      
+        "backToTop" : "शीर्ष पर जाएँ"
+    },
+      
+
+    "bn":{
+        "menu_toggle": "মেনু",
+        "navbar_home": "হোম",
+        "navbar_services": "সেবা",
+        "navbar_holiday": "ছুটির প্যাকেজ",
+        "navbar_bus": "বাস বুকিং",
+        "navbar_homestay": "হোমস্টে বুকিং",
+        "navbar_homestays": "হোমস্টে",
+        "navbar_faq": "সচরাচর জিজ্ঞাস্য",
+        "navbar_contact": "যোগাযোগ করুন",
+      
+        "search-input_placeholder": "অনুসন্ধান...",
+        "search_btn": "অনুসন্ধান",
+        "login_btn": "লগ ইন",
+      
+        "mobile_menu_close": "বন্ধ করুন",
+        "mobile_search_input": "অনুসন্ধান...",
+      
+        "heading_privacy": "গোপনীয়তা নীতি",
+      
+        "content_intro": "1. ভূমিকা",
+        "content_intro_text": "Rural Retreats-এ আমরা আপনার গোপনীয়তাকে সম্মান করি এবং আপনার ব্যক্তিগত ডেটা সুরক্ষিত রাখতে প্রতিশ্রুতিবদ্ধ।",
+      
+        "content_info": "2. আমরা কোন তথ্য সংগ্রহ করি",
+        "content_info_text": "আপনি আমাদের সেবা ব্যবহার করার সময় আমরা নিম্নলিখিত ধরণের তথ্য সংগ্রহ করি:",
+        "content_info_text1": "ব্যক্তিগত বিবরণ (নাম, ইমেইল, ফোন নম্বর)",
+        "content_info_text2": "বুকিং লেনদেনের জন্য পেমেন্ট সম্পর্কিত তথ্য",
+        "content_info_text3": "আমাদের ওয়েবসাইট উন্নত করার জন্য কুকিজ এবং ব্যবহার ডেটা",
+      
+        "content_info_use": "3. আমরা আপনার তথ্য কীভাবে ব্যবহার করি",
+        "content_info_use_text": "আপনার তথ্য ব্যবহৃত হয়:",
+        "content_info_use_text1": "বুকিং এবং পেমেন্ট প্রক্রিয়াকরণের জন্য",
+        "content_info_use_text2": "গ্রাহক সহায়তা প্রদানের জন্য",
+        "content_info_use_text3": "প্রচারমূলক অফার এবং ভ্রমণ আপডেট পাঠানোর জন্য",
+        "content_info_use_text4": "আমাদের ওয়েবসাইট অভিজ্ঞতা উন্নত করার জন্য",
+      
+        "content_info_sharing": "4. আপনার তথ্য ভাগাভাগি করা",
+        "content_info_sharing_text": "আমরা আপনার ডেটা বিক্রি করি না। আপনার তথ্য শুধুমাত্র নিম্নলিখিতদের সাথে ভাগ করা হয়:",
+        "content_info_sharing_text1": "পেমেন্ট প্রসেসিং কোম্পানি",
+        "content_info_sharing_text2": "বুকিং নিশ্চিতকরণের জন্য ভ্রমণ সহযোগী",
+        "content_info_sharing_text3": "আইন অনুযায়ী প্রয়োজন হলে আইনি কর্তৃপক্ষ",
+      
+        "content_data": "5. ডেটা নিরাপত্তা",
+        "content_data_text": "আমরা আপনার ডেটাকে অননুমোদিত অ্যাক্সেস থেকে সুরক্ষিত রাখতে শক্তিশালী নিরাপত্তা ব্যবস্থা প্রয়োগ করি।",
+      
+        "content_rights": "6. আপনার অধিকার",
+        "content_rights_text": "আপনার ব্যক্তিগত ডেটা অ্যাক্সেস, সংশোধন বা মুছে ফেলার অনুরোধ করার অধিকার রয়েছে। এজন্য আমাদেরকে support@ruralretreats.com-এ ইমেইল করুন।",
+      
+        "content_privacy_changes": "7. গোপনীয়তা নীতিতে পরিবর্তন",
+        "content_privacy_changes_text": "আমরা সময়ে সময়ে এই নীতি আপডেট করতে পারি। সর্বশেষ সংস্করণের জন্য দয়া করে এই পৃষ্ঠা পরীক্ষা করুন।",
+      
+        "content_contact": "8. আমাদের সাথে যোগাযোগ করুন",
+        "content_contact_text": "আমাদের গোপনীয়তা নীতি সম্পর্কে আপনার কোনো প্রশ্ন থাকলে, support@ruralretreats.com-এ আমাদের সাথে যোগাযোগ করুন।",
+      
+        "footer_about": "আমরা বাজেট-বান্ধব ভ্রমণ, বাছাই করা অভিজ্ঞতা এবং বিলাসবহুল ভ্রমণ প্রদান করি।",
+        "footer_quicklinks": "দ্রুত লিঙ্ক",
+        "footer_home": "হোম",
+        "footer_about_link": "আমাদের সম্পর্কে",
+        "footer_services": "সেবা",
+        "footer_hotels": "হোটেল ও হোমস্টে",
+        "footer_guides": "ভ্রমণ গাইড",
+        "footer_faq": "সচরাচর জিজ্ঞাস্য",
+        "footer_contact": "যোগাযোগ করুন",
+      
+        "footer_support": "গ্রাহক সহায়তা",
+        "footer_email": "ইমেইল: support@ruralretreats.com",
+        "footer_phone": "ফোন: +91 629XX XXXXX",
+        "footer_address": "ঠিকানা: কিউ বিশ্ববিদ্যালয় ইনস্টিটিউট অফ টেকনোলজি, বর্ধমান-713104, পশ্চিমবঙ্গ",
+      
+        "footer_follow": "আমাদের অনুসরণ করুন",
+        "footer_language": "ভাষা",
+        "footer_lang_label": "ভাষা নির্বাচন করুন:",
+        "footer_newsletter_heading": "নিউজলেটার",
+        "footer_newsletter": "বিশেষ ভ্রমণ অফারের জন্য সাবস্ক্রাইব করুন!",
+      
+        "footer_rights": "© 2025 Rural Retreats. সর্বস্বত্ব সংরক্ষিত। | গোপনীয়তা নীতি | শর্তাবলী",
+      
+        "chatbot_header": "আমাদের সাথে চ্যাট করুন",
+        "typingIndicator": "🤖 বট টাইপ করছে...",
+        "chatInput_placeholder": "আপনার বার্তা লিখুন...",
+        "sendMessage": "বার্তা পাঠান",
+        "voiceInput": "ভয়েস ইনপুট",
+        "clearChat": "চ্যাট মুছুন",
+      
+        "backToTop" : "উপরে যান"
+    },
+      
+
+    "fr":{
+        "menu_toggle": "Menu",
+        "navbar_home": "Accueil",
+        "navbar_services": "Services",
+        "navbar_holiday": "Forfaits vacances",
+        "navbar_bus": "Réservation de bus",
+        "navbar_homestay": "Réservation de maison d'hôtes",
+        "navbar_homestays": "Maisons d'hôtes",
+        "navbar_faq": "FAQ",
+        "navbar_contact": "Contactez-nous",
+      
+        "search-input_placeholder": "Rechercher...",
+        "search_btn": "Rechercher",
+        "login_btn": "Connexion",
+      
+        "mobile_menu_close": "Fermer",
+        "mobile_search_input": "Rechercher...",
+      
+        "heading_privacy": "Politique de confidentialité",
+      
+        "content_intro": "1. Introduction",
+        "content_intro_text": "Chez Rural Retreats, nous respectons votre vie privée et nous nous engageons à protéger vos données personnelles.",
+      
+        "content_info": "2. Les informations que nous collectons",
+        "content_info_text": "Lorsque vous utilisez nos services, nous collectons les types d'informations suivants :",
+        "content_info_text1": "Détails personnels (nom, e-mail, numéro de téléphone)",
+        "content_info_text2": "Informations de paiement pour les transactions de réservation",
+        "content_info_text3": "Cookies et données d'utilisation pour améliorer notre site web",
+      
+        "content_info_use": "3. Comment nous utilisons vos informations",
+        "content_info_use_text": "Vos informations sont utilisées pour :",
+        "content_info_use_text1": "Traiter les réservations et les paiements",
+        "content_info_use_text2": "Fournir une assistance client",
+        "content_info_use_text3": "Envoyer des offres promotionnelles et des mises à jour de voyage",
+        "content_info_use_text4": "Améliorer l'expérience de notre site web",
+      
+        "content_info_sharing": "4. Partage de vos informations",
+        "content_info_sharing_text": "Nous ne vendons pas vos données. Vos informations ne sont partagées qu'avec :",
+        "content_info_sharing_text1": "Les sociétés de traitement des paiements",
+        "content_info_sharing_text2": "Les partenaires de voyage pour confirmer les réservations",
+        "content_info_sharing_text3": "Les autorités légales (si requis par la loi)",
+      
+        "content_data": "5. Sécurité des données",
+        "content_data_text": "Nous appliquons de solides mesures de sécurité pour protéger vos données contre tout accès non autorisé.",
+      
+        "content_rights": "6. Vos droits",
+        "content_rights_text": "Vous avez le droit de demander l'accès, la correction ou la suppression de vos données personnelles. Pour cela, contactez-nous à support@ruralretreats.com.",
+      
+        "content_privacy_changes": "7. Changements dans la politique de confidentialité",
+        "content_privacy_changes_text": "Nous pouvons mettre à jour cette politique de temps à autre. Veuillez consulter cette page pour la version la plus récente.",
+      
+        "content_contact": "8. Contactez-nous",
+        "content_contact_text": "Si vous avez des questions concernant notre politique de confidentialité, contactez-nous à support@ruralretreats.com.",
+      
+        "footer_about": "Nous proposons des circuits économiques, des expériences sélectionnées et des vacances de luxe.",
+        "footer_quicklinks": "Liens rapides",
+        "footer_home": "Accueil",
+        "footer_about_link": "À propos de nous",
+        "footer_services": "Services",
+        "footer_hotels": "Hôtels et maisons d'hôtes",
+        "footer_guides": "Guides de voyage",
+        "footer_faq": "FAQ",
+        "footer_contact": "Contactez-nous",
+      
+        "footer_support": "Support client",
+        "footer_email": "E-mail : support@ruralretreats.com",
+        "footer_phone": "Téléphone : +91 629XX XXXXX",
+        "footer_address": "Adresse : KU University Institute of Technology, Burdwan-713104, Bengale occidental",
+      
+        "footer_follow": "Suivez-nous",
+        "footer_language": "Langue",
+        "footer_lang_label": "Choisissez la langue :",
+        "footer_newsletter_heading": "Newsletter",
+        "footer_newsletter": "Abonnez-vous pour des offres de voyage exclusives !",
+      
+        "footer_rights": "© 2025 Rural Retreats. Tous droits réservés. | Politique de confidentialité | Termes et conditions",
+      
+        "chatbot_header": "Discuter avec nous",
+        "typingIndicator": "🤖 Le bot écrit...",
+        "chatInput_placeholder": "Écrivez votre message...",
+        "sendMessage": "Envoyer",
+        "voiceInput": "Entrée vocale",
+        "clearChat": "Effacer la discussion",
+      
+        "backToTop" : "Retour en haut"
+    },
+      
+
+    "de":{
+        "menu_toggle": "Menü",
+        "navbar_home": "Startseite",
+        "navbar_services": "Dienstleistungen",
+        "navbar_holiday": "Urlaubspakete",
+        "navbar_bus": "Busbuchung",
+        "navbar_homestay": "Homestay-Buchung",
+        "navbar_homestays": "Homestays",
+        "navbar_faq": "FAQ",
+        "navbar_contact": "Kontakt",
+      
+        "search-input_placeholder": "Suchen...",
+        "search_btn": "Suchen",
+        "login_btn": "Anmelden",
+      
+        "mobile_menu_close": "Schließen",
+        "mobile_search_input": "Suchen...",
+      
+        "heading_privacy": "Datenschutzerklärung",
+      
+        "content_intro": "1. Einführung",
+        "content_intro_text": "Bei Rural Retreats respektieren wir Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Daten zu schützen.",
+      
+        "content_info": "2. Welche Informationen wir sammeln",
+        "content_info_text": "Wenn Sie unsere Dienste nutzen, sammeln wir folgende Arten von Informationen:",
+        "content_info_text1": "Persönliche Angaben (Name, E-Mail, Telefonnummer)",
+        "content_info_text2": "Zahlungsinformationen für Buchungstransaktionen",
+        "content_info_text3": "Cookies und Nutzungsdaten zur Verbesserung unserer Website",
+      
+        "content_info_use": "3. Wie wir Ihre Informationen verwenden",
+        "content_info_use_text": "Ihre Informationen werden verwendet, um:",
+        "content_info_use_text1": "Buchungen und Zahlungen zu verarbeiten",
+        "content_info_use_text2": "Kundensupport bereitzustellen",
+        "content_info_use_text3": "Werbeangebote und Reise-Updates zu senden",
+        "content_info_use_text4": "Das Nutzungserlebnis unserer Website zu verbessern",
+      
+        "content_info_sharing": "4. Weitergabe Ihrer Informationen",
+        "content_info_sharing_text": "Wir verkaufen Ihre Daten nicht. Ihre Informationen werden nur geteilt mit:",
+        "content_info_sharing_text1": "Zahlungsabwicklungsunternehmen",
+        "content_info_sharing_text2": "Reisepartnern zur Bestätigung von Buchungen",
+        "content_info_sharing_text3": "Rechtsbehörden (wenn gesetzlich vorgeschrieben)",
+      
+        "content_data": "5. Datensicherheit",
+        "content_data_text": "Wir implementieren starke Sicherheitsmaßnahmen, um Ihre Daten vor unbefugtem Zugriff zu schützen.",
+      
+        "content_rights": "6. Ihre Rechte",
+        "content_rights_text": "Sie haben das Recht, Zugang zu Ihren persönlichen Daten zu verlangen, diese zu berichtigen oder zu löschen. Kontaktieren Sie uns dazu unter support@ruralretreats.com.",
+      
+        "content_privacy_changes": "7. Änderungen der Datenschutzerklärung",
+        "content_privacy_changes_text": "Wir können diese Richtlinie von Zeit zu Zeit aktualisieren. Bitte überprüfen Sie diese Seite für die neueste Version.",
+      
+        "content_contact": "8. Kontaktieren Sie uns",
+        "content_contact_text": "Wenn Sie Fragen zu unserer Datenschutzerklärung haben, kontaktieren Sie uns unter support@ruralretreats.com.",
+      
+        "footer_about": "Wir bieten preisgünstige Touren, ausgewählte Reiseerlebnisse und Luxusurlaube an.",
+        "footer_quicklinks": "Schnellzugriff",
+        "footer_home": "Startseite",
+        "footer_about_link": "Über uns",
+        "footer_services": "Dienstleistungen",
+        "footer_hotels": "Hotels & Homestays",
+        "footer_guides": "Reiseführer",
+        "footer_faq": "FAQ",
+        "footer_contact": "Kontakt",
+      
+        "footer_support": "Kundensupport",
+        "footer_email": "E-Mail: support@ruralretreats.com",
+        "footer_phone": "Telefon: +91 629XX XXXXX",
+        "footer_address": "Adresse: KU University Institute of Technology, Burdwan-713104, Westbengalen",
+      
+        "footer_follow": "Folgen Sie uns",
+        "footer_language": "Sprache",
+        "footer_lang_label": "Sprache auswählen:",
+        "footer_newsletter_heading": "Newsletter",
+        "footer_newsletter": "Abonnieren Sie, um exklusive Reiseangebote zu erhalten!",
+      
+        "footer_rights": "© 2025 Rural Retreats. Alle Rechte vorbehalten. | Datenschutzerklärung | Allgemeine Geschäftsbedingungen",
+      
+        "chatbot_header": "Chatten Sie mit uns",
+        "typingIndicator": "🤖 Bot schreibt...",
+        "chatInput_placeholder": "Ihre Nachricht eingeben...",
+        "sendMessage": "Senden",
+        "voiceInput": "Spracheingabe",
+        "clearChat": "Chat löschen",
+      
+        "backToTop" : "Nach oben"
+    },
+      
+
+    "es":{
+        "menu_toggle": "Menú",
+        "navbar_home": "Inicio",
+        "navbar_services": "Servicios",
+        "navbar_holiday": "Paquetes vacacionales",
+        "navbar_bus": "Reserva de autobuses",
+        "navbar_homestay": "Reserva de Homestays",
+        "navbar_homestays": "Homestays",
+        "navbar_faq": "Preguntas frecuentes",
+        "navbar_contact": "Contáctanos",
+      
+        "search-input_placeholder": "Buscar...",
+        "search_btn": "Buscar",
+        "login_btn": "Iniciar sesión",
+      
+        "mobile_menu_close": "Cerrar",
+        "mobile_search_input": "Buscar...",
+      
+        "heading_privacy": "Política de Privacidad",
+      
+        "content_intro": "1. Introducción",
+        "content_intro_text": "En Rural Retreats respetamos su privacidad y estamos comprometidos a proteger sus datos personales.",
+      
+        "content_info": "2. Información que recopilamos",
+        "content_info_text": "Recopilamos los siguientes tipos de información cuando utiliza nuestros servicios:",
+        "content_info_text1": "Datos personales (nombre, correo electrónico, número de teléfono)",
+        "content_info_text2": "Información de pago para transacciones de reserva",
+        "content_info_text3": "Cookies y datos de uso para mejorar nuestro sitio web",
+      
+        "content_info_use": "3. Cómo usamos su información",
+        "content_info_use_text": "Su información se utiliza para:",
+        "content_info_use_text1": "Procesar reservas y pagos",
+        "content_info_use_text2": "Brindar atención al cliente",
+        "content_info_use_text3": "Enviar ofertas promocionales y actualizaciones de viajes",
+        "content_info_use_text4": "Mejorar la experiencia en nuestro sitio web",
+      
+        "content_info_sharing": "4. Compartir su información",
+        "content_info_sharing_text": "No vendemos sus datos. Su información solo se comparte con:",
+        "content_info_sharing_text1": "Empresas de procesamiento de pagos",
+        "content_info_sharing_text2": "Socios de viaje para la confirmación de reservas",
+        "content_info_sharing_text3": "Autoridades legales si lo exige la ley",
+      
+        "content_data": "5. Seguridad de los datos",
+        "content_data_text": "Implementamos medidas de seguridad sólidas para proteger sus datos contra el acceso no autorizado.",
+      
+        "content_rights": "6. Sus derechos",
+        "content_rights_text": "Usted tiene derecho a solicitar acceso, corrección o eliminación de sus datos personales. Para hacerlo, envíe un correo a support@ruralretreats.com.",
+      
+        "content_privacy_changes": "7. Cambios en la Política de Privacidad",
+        "content_privacy_changes_text": "Podemos actualizar esta política de vez en cuando. Por favor, consulte esta página para la última versión.",
+      
+        "content_contact": "8. Contáctenos",
+        "content_contact_text": "Si tiene alguna pregunta sobre nuestra Política de Privacidad, contáctenos en support@ruralretreats.com.",
+      
+        "footer_about": "Ofrecemos tours económicos, experiencias de viaje seleccionadas y escapadas de lujo en todo el mundo.",
+        "footer_quicklinks": "Enlaces rápidos",
+        "footer_home": "Inicio",
+        "footer_about_link": "Sobre nosotros",
+        "footer_services": "Servicios",
+        "footer_hotels": "Hoteles y Homestays",
+        "footer_guides": "Guías de viaje",
+        "footer_faq": "Preguntas frecuentes",
+        "footer_contact": "Contáctanos",
+      
+        "footer_support": "Atención al cliente",
+        "footer_email": "Correo: support@ruralretreats.com",
+        "footer_phone": "Teléfono: +91 629XX XXXXX",
+        "footer_address": "Dirección: KU University Institute of Technology, Burdwan-713104, Bengala Occidental",
+      
+        "footer_follow": "Síguenos",
+        "footer_language": "Idioma",
+        "footer_lang_label": "Elige idioma:",
+        "footer_newsletter_heading": "Boletín",
+        "footer_newsletter": "¡Suscríbase para ofertas de viaje exclusivas!",
+      
+        "footer_rights": "© 2025 Rural Retreats. Todos los derechos reservados. | Política de Privacidad | Términos y Condiciones",
+      
+        "chatbot_header": "Chatea con nosotros",
+        "typingIndicator": "🤖 El bot está escribiendo...",
+        "chatInput_placeholder": "Escriba su mensaje...",
+        "sendMessage": "Enviar",
+        "voiceInput": "Entrada de voz",
+        "clearChat": "Borrar chat",
+      
+        "backToTop" : "Ir arriba"
+    }
+      
+}

@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore our premium homestays with seamless navigation, interactive filters, and a user-friendly design.">
-    <title>Homestay Listings - Rural Retreats</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/favicon-57x57.png" type="image/png" />
-<link rel="apple-touch-icon" sizes="60x60" href="./favicon/favicon-60x60.png" type="image/png" />
-<link rel="apple-touch-icon" sizes="72x72" href="./favicon/favicon-72x72.png" type="image/png" />
-<link rel="apple-touch-icon" sizes="114x114" href="./favicon/favicon-114x114.png" type="image/png" />
-<link rel="apple-touch-icon" sizes="120x120" href="./favicon/favicon-120x120.png" type="image/png" />
-<link rel="apple-touch-icon" sizes="144x144" href="./favicon/favicon-144x144.png" type="image/png" />
-<link rel="apple-touch-icon" sizes="152x152" href="./favicon/favicon-152x152.png" type="image/png" />
-<link rel="apple-touch-icon" sizes="180x180" href="./favicon/favicon-180x180.png" type="image/png" />
-<link rel="icon" sizes="16x16" href="./favicon/favicon-16x16.png" type="image/png" />
-<link rel="icon" sizes="32x32" href="./favicon/favicon-32x32.png" type="image/png" />
-<link rel="icon" sizes="96x96" href="./favicon/favicon-96x96.png" type="image/png" />
-<link rel="icon" sizes="192x192" href="./favicon/favicon-192x192.png" type="image/png" />
-<link rel="icon" sizes="512x512" href="./favicon/favicon-512x512.png" type="image/png" />
-<link rel="manifest" href="./favicon/manifest.json" />
-<meta name="theme-color" content="#FFFFFF" />
-<meta name="msapplication-TileColor" content="#FFFFFF" />
-<meta name="msapplication-TileImage" content="./favicon/favicon-512x512.png"/>
-    <link rel="stylesheet" href="./CSS/homestays.css">
-    <link rel="stylesheet" href="./CSS/navbar.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">   
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"> 
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-    <script defer src="./JS/homestays.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key"></script>
+  <!-- Basic Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore our premium homestays with seamless navigation, interactive filters, and a user-friendly design." />
+  <title translate="no">Homestay Listings - Rural Retreats</title>
 
+  <!-- Theme & Tile Colors -->
+  <meta name="theme-color" content="#FFFFFF" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="./favicon/favicon-512x512.png" />
+
+  <!-- Favicons & Manifest -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/favicon-57x57.png" type="image/png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/favicon-60x60.png" type="image/png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/favicon-72x72.png" type="image/png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/favicon-114x114.png" type="image/png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/favicon-120x120.png" type="image/png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/favicon-144x144.png" type="image/png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/favicon-152x152.png" type="image/png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/favicon-180x180.png" type="image/png" />
+  <link rel="icon" sizes="16x16" href="./favicon/favicon_16x16.png" type="image/png" />
+  <link rel="icon" sizes="32x32" href="./favicon/favicon-32x32.png" type="image/png" />
+  <link rel="icon" sizes="96x96" href="./favicon/favicon-96x96.png" type="image/png" />
+  <link rel="icon" sizes="192x192" href="./favicon/favicon-192x192.png" type="image/png" />
+  <link rel="icon" sizes="512x512" href="./favicon/favicon-512x512.png" type="image/png" />
+  <link rel="manifest" href="./favicon/manifest.json" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./CSS/homestays.css" />
+  <link rel="stylesheet" href="./CSS/navbar.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script defer src="./JS/homestays.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key"></script>
+  <script defer src="./JS/navbar.js"></script>
+  <script src="./JS/translate.js" defer></script>
 
 </head>
-<body>
-    
- 
- <header>
+
+<body data-page = "homestays">
+  <header>
     <nav class="navbar">
         <div class="nav-container">
             
@@ -43,59 +52,55 @@
                 <i class="fas fa-bars"></i>
             </button>
 
-            
-            <div class="logo">
-                <a href="index.html">Rural Retreats</a>
-            </div>
-
-            
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a href="services.html">Services <i class="fas fa-chevron-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="services.html#tours">Holiday Packages</a></li>
-                        <li><a href="services.html#bus">Bus Booking</a></li>
-                        <li><a href="services.html#homestays">Homestays Booking</a></li>
-                    </ul>
-                </li>
-                <li><a href="homestays.html">HomeStays</a></li>
-                <li><a href="faq.html">FAQs</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-
-            
-            <div class="right-section">
-                <div class="search-bar">
-                    <input type="text" placeholder="Search..." id="search-input">
-                    <button title="search"><i class="fas fa-search"></i></button>
-                </div>
-                <div class="auth-buttons">
-                    <button class="login-btn" onclick="window.location.href='login.html'">Log In</button>
-                </div>
-            </div>
+        <div class="logo" translate="no">
+          <a href="index.html">Rural Retreats</a>
         </div>
+
+        <ul class="nav-menu">
+          <li><a id = "navbar_home" href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a id = "navbar_services" href="services.html">Services <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a id = "navbar_holiday" href="services.html#tours">Holiday Packages</a></li>
+              <li><a id = "navbar_bus" href="services.html#bus">Bus Booking</a></li>
+              <li><a id = "navbar_homestay" href="services.html#homestays">Homestays Booking</a></li>
+            </ul>
+          </li>
+          <li><a id = "navbar_homestays" href="homestays.html">HomeStays</a></li>
+          <li><a id = "navbar_faq" href="faq.html">FAQs</a></li>
+          <li><a id = "navbar_contact" href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <div class="right-section">
+          <div class="search-bar">
+            <input type="text" placeholder="Search..." id="search-input" />
+            <button id = "search_btn" title="search"><i class="fas fa-search"></i></button>
+          </div>
+          <div class="auth-buttons">
+            <button class="login-btn" id = "login_btn" onclick="window.location.href='login.html'">
+              Log In
+            </button>
+          </div>
+        </div>
+      </div>
     </nav>
 
     
     <div class="mobile-menu" id="mobile-menu">
-        <button class="close-btn" id="menu-close">✖</button>
-        
-        
-        <div class="mobile-search-bar">
-            <input type="text" placeholder="Search..." id="mobile-search-input">
-            <button title="search"><i class="fas fa-search"></i></button>
-        </div>
+      <button class="close-btn" id="menu-close">✖</button>
 
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="homestays.html">HomeStays</a></li>
-            <li><a href="faq.html">FAQs</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+      <div class="mobile-search-bar">
+        <input type="text" placeholder="Search..." id="mobile-search-input" />
+        <button id = "search_btn" title="search"><i class="fas fa-search"></i></button>
+      </div>
 
-        
+      <ul>
+        <li><a id = "navbar_home" href="index.html">Home</a></li>
+        <li><a id = "navbar_services" href="services.html">Services</a></li>
+        <li><a id = "navbar_homestays" href="homestays.html">HomeStays</a></li>
+        <li><a id = "navbar_faq" href="faq.html">FAQs</a></li>
+        <li><a id = "navbar_contact" href="contact.html">Contact Us</a></li>
+      </ul>
     </div>
 </header>
 
@@ -103,163 +108,104 @@
 <section id="hero" class="hero-section">
     <div class="parallax-bg"></div> 
     <div class="hero-overlay">
-        <div class="hero-content">
-            <h1>Escape to the Heart of Rural India</h1>
-            <p>Experience the Authentic Charm of Rural Life in Our Handpicked Homestays.</p>
-            <div class="cta-buttons">
-                <a href="#listings" class="btn-cta">Explore Homestays</a>
-                <a href="#booking" class="btn-secondary">Book Now</a>
-            </div>
+      <div class="hero-content">
+        <h1 id = "hero_title">Escape to the Heart of Rural India</h1>
+        <p id = "hero_text">
+          Experience the Authentic Charm of Rural Life in Our Handpicked
+          Homestays.
+        </p>
+        <div class="cta-buttons">
+          <a id = "cta_explore" href="#listings" class="btn-cta">Explore Homestays</a>
+          <a id = "cta_book" href="#booking" class="btn-secondary">Book Now</a>
         </div>
+      </div>
     </div>
 </section>
 
 
-<section id="listings" class="homestay-listings">
-    <h2>🏡 Explore Our Homestays</h2>
-    <p>Find your perfect getaway from our carefully curated homestays, offering comfort, culture, and convenience.</p>
+  <section id="listings" class="homestay-listings">
+    <h2 id = "homestay_title">🏡 Explore Our Homestays</h2>
+    <p id = "homestay_text">
+      Find your perfect getaway from our carefully curated homestays, offering
+      comfort, culture, and convenience.
+    </p>
 
-    
-    <!-- <div class="filters-container">
-        <h3>🔍 Filter Your Search</h3>
-        <div class="filters">
-            <div class="filter-group">
-                <label for="locationFilter">📍 Location:</label>
-                <select id="locationFilter">
-                    <option value="all">All Locations</option>
-                    <option value="Rajasthan">Rajasthan</option>
-                    <option value="Kerala">Kerala</option>
-                    <option value="Himachal Pradesh">Himachal Pradesh</option>
-                    <option value="Uttarakhand">Uttarakhand</option>
-                    <option value="Tamil Nadu">Tamil Nadu</option>
-                    <option value="Madhya Pradesh">Madhya Pradesh</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label for="priceFilter">💰 Price Range (₹):</label>
-                <div class="price-slider-container">
-                    <span id="currentPrice" class="current-price">₹1000</span> 
-                    <input type="range" id="priceFilter" min="1000" max="10000" step="100">
-                    <div class="price-range-labels">
-                        <span class="min-price">₹1000 -</span> 
-                        <span class="max-price">₹10,000</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="filter-group">
-                <label for="bedroomFilter">🛏️ Bedrooms:</label>
-                <select id="bedroomFilter">
-                    <option value="1">1 Bedroom</option>
-                    <option value="2">2 Bedrooms</option>
-                    <option value="3">3 Bedrooms</option>
-                    <option value="4">4+ Bedrooms</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label for="ratingFilter">⭐ Minimum Rating:</label>
-                <select id="ratingFilter">
-                    <option value="all">All Ratings</option>
-                    <option value="4">4 Stars & Above</option>
-                    <option value="3">3 Stars & Above</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label for="availabilityFilter">📆 Availability:</label>
-                <select id="availabilityFilter">
-                    <option value="all">All</option>
-                    <option value="available">Available</option>
-                    <option value="unavailable">Unavailable</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label for="sortBy">🔽 Sort By:</label>
-                <select id="sortBy">
-                    <option value="priceLowHigh">Price: Low to High</option>
-                    <option value="priceHighLow">Price: High to Low</option>
-                    <option value="ratingsHighLow">Ratings: High to Low</option>
-                    <option value="popularity">Popularity</option>
-                </select>
-            </div>
-        </div>
-        <button id="applyFilters" class="apply-filters-btn">Apply Filters</button>
-    </div> -->
     <div class="filters-container">
+      <h3 class="slide-in">
+        <span class="gray-text" id = "filter_text">FILTER</span>
+        <span class="blue-text" id = "search_text">YOUR SEARCH</span>
+      </h3>
+
+      <div class="filters">
+        <div class="filter-group">
+          <label id = "location_label" for="locationFilter">📍 Location:</label>
+          <select id="locationFilter">
+            <option value="all" id = "location_all">All Locations</option>
+            <option value="city1" id = "city_1">City 1</option>
+            <option value="city2" id = "city_2">City 2</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="priceFilter" id = "price_range">💰 Price Range (₹):</label>
+          <div class="price-slider-container">
+            <span id="currentPrice" class="current-price">₹1000</span>
+            <input type="range" id="priceFilter" min="1000" max="10000" step="100" />
+            <div class="price-range-labels">
+              <span class="min-price" id = "min_price">₹1000 -</span>
+              <span class="max-price" id = "max_price">₹10,000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label for="bedroomFilter" id = "bedroom_filter">🛏️ Bedrooms:</label>
+          <select id="bedroomFilter">
+            <option value="1" id = "b_1">1 Bedroom</option>
+            <option value="2" id = "b_2">2 Bedrooms</option>
+            <option value="3" id = "b_3">3 Bedrooms</option>
+            <option value="4" id = "b_4">4+ Bedrooms</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="ratingFilter" id = "rating_filter">⭐ Minimum Rating:</label>
+          <select id="ratingFilter">
+            <option value="all" id = "rating_all">All Ratings</option>
+            <option value="4" id = "rating_1">4 Stars & Above</option>
+            <option value="3" id = "rating_2">3 Stars & Above</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="availabilityFilter" id = "availability_filter">📆 Availability:</label>
+          <select id="availabilityFilter">
+            <option value="all" id = "availability_all">All</option>
+            <option value="available" id = "available">Available</option>
+            <option value="unavailable" id = "unavailable">Unavailable</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="sortBy" id = "sort_filter">🔽 Sort By:</label>
+          <select id="sortBy">
+            <option value="priceLowHigh" id = "sort_price1">Price: Low to High</option>
+            <option value="priceHighLow" id = "sort_price2">Price: High to Low</option>
+            <option value="ratingsHighLow" id = "sort_rating">Ratings: High to Low</option>
+            <option value="popularity" id = "sort_popularity">Popularity</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="applyFilters" class="apply-filters-btn">
+        Apply Filters
+      </button>
         <!-- <h3 class = "slide-in">Filter Your Search</h3> -->
          <!-- added grey and blue effect to heading -->
         <h3 class="slide-in">
             <span class="gray-text">FILTER</span> <span class="blue-text">YOUR SEARCH</span>
         </h3>
-    
-        <div class="filters">
-            <div class="filter-group">
-                <label for="locationFilter">📍 Location:</label>
-                <select id="locationFilter">
-                    <option value="all">All Locations</option>
-                    <option value="city1">City 1</option>
-                    <option value="city2">City 2</option>
-                </select>
-            </div>
-    
-            <div class="filter-group">
-                <label for="priceFilter">💰 Price Range (₹):</label>
-                <div class="price-slider-container">
-                    <span id="currentPrice" class="current-price">₹1000</span>
-                    <input type="range" id="priceFilter" min="1000" max="10000" step="100">
-                    <div class="price-range-labels">
-                        <span class="min-price">₹1000 -</span> 
-                        <span class="max-price">₹10,000</span>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="filter-group">
-                <label for="bedroomFilter">🛏️ Bedrooms:</label>
-                <select id="bedroomFilter">
-                    <option value="1">1 Bedroom</option>
-                    <option value="2">2 Bedrooms</option>
-                    <option value="3">3 Bedrooms</option>
-                    <option value="4">4+ Bedrooms</option>
-                </select>
-            </div>
-    
-            <div class="filter-group">
-                <label for="ratingFilter">⭐ Minimum Rating:</label>
-                <select id="ratingFilter">
-                    <option value="all">All Ratings</option>
-                    <option value="4">4 Stars & Above</option>
-                    <option value="3">3 Stars & Above</option>
-                </select>
-            </div>
-    
-            <div class="filter-group">
-                <label for="availabilityFilter">📆 Availability:</label>
-                <select id="availabilityFilter">
-                    <option value="all">All</option>
-                    <option value="available">Available</option>
-                    <option value="unavailable">Unavailable</option>
-                </select>
-            </div>
-    
-            <div class="filter-group">
-                <label for="sortBy">🔽 Sort By:</label>
-                <select id="sortBy">
-                    <option value="priceLowHigh">Price: Low to High</option>
-                    <option value="priceHighLow">Price: High to Low</option>
-                    <option value="ratingsHighLow">Ratings: High to Low</option>
-                    <option value="popularity">Popularity</option>
-                </select>
-            </div>
-        </div>
-    
-        <button id="applyFilters" class="apply-filters-btn">Apply Filters</button>
-    </div>
-    
-    
+  
     <div class="card-container">
         
         <div class="homestay-card" data-price="2500" data-bedrooms="1" data-location="Rajasthan" data-status="available" data-rating="4.8">
@@ -268,23 +214,23 @@
                 <span class="rating-badge">⭐ 4.8</span>
             </div>
             <div class="card-content">
-                <h3>Traditional Haveli in Rajasthan</h3>
-                <p><strong>📍 Location:</strong> Rajasthan</p>
-                <p><strong>💰 Price:</strong> ₹2500/Day</p>
-                <p><strong>🏡 Details:</strong> 2 Bedrooms • 1 Bathroom • 950 sq ft</p>
+                <h3 id = "card1_title">Traditional Haveli in Rajasthan</h3>
+                <p id = "card1_location"><strong>📍 Location:</strong> Rajasthan</p>
+                <p id = "card1_price"><strong>💰 Price:</strong> ₹2500/Day</p>
+                <p id = "card1_details"><strong>🏡 Details:</strong> 2 Bedrooms • 1 Bathroom • 950 sq ft</p>
                 <ul class="amenities">
-                    <li>🌾 Organic Farm</li>
-                    <li>🍽️ Home-Cooked Meals</li>
-                    <li>📶 WiFi Available</li>
-                    <li>🐴 Horse Riding</li>
-                    <li>🚗 Free Parking</li>
-                    <li>❄️ Air Conditioning</li>
+                    <li id = "card1_amenity1">🌾 Organic Farm</li>
+                    <li id = "card1_amenity2">🍽️ Home-Cooked Meals</li>
+                    <li id = "card1_amenity3">📶 WiFi Available</li>
+                    <li id = "card1_amenity4">🐴 Horse Riding</li>
+                    <li id = "card1_amenity5">🚗 Free Parking</li>
+                    <li id = "card1_amenity6">❄️ Air Conditioning</li>
 
                 </ul>
-                <span class="status-badge available">✅ Available | Booking Open</span>
+                <span class="status-badge available" id = "card1_availability">✅ Available | Booking Open</span>
             </div>
             <div class="card-actions">
-                <button class="view-details-btn">View Details</button>
+                <button class="view-details-btn" id = "card1_view">View Details</button>
                 <button class="add-to-wishlist-btn" title="Add to Wishlist"><i class="far fa-heart"></i></button>
             </div>
         </div>
@@ -296,21 +242,21 @@
                 <span class="rating-badge">⭐ 4.6</span>
             </div>
             <div class="card-content">
-                <h3>Cozy Cottage in Kerala</h3>
-                <p><strong>📍 Location:</strong> Kerala</p>
-                <p><strong>💰 Price:</strong> ₹1800/Day</p>
-                <p><strong>🏡 Details:</strong> 2 Bedrooms • 2 Bathroom • 1200 sq ft</p>
+                <h3 id = "card2_title">Cozy Cottage in Kerala</h3>
+                <p id = "card2_location"><strong>📍 Location:</strong> Kerala</p>
+                <p id = "card2_price"><strong>💰 Price:</strong> ₹1800/Day</p>
+                <p id = "card2_details"><strong>🏡 Details:</strong> 2 Bedrooms • 2 Bathroom • 1200 sq ft</p>
                 <ul class="amenities">
-                    <li>🌊 Backwater Views</li>
-                    <li>🍽️ Local Cuisine</li>
-                    <li>📶 WiFi Available</li>
-                    <li>🚴‍♂️ Bicycle Rentals</li>
-                    <li>🐶 Pet Friendly</li>
+                    <li id = "card2_amenity1">🌊 Backwater Views</li>
+                    <li id = "card2_amenity2">🍽️ Local Cuisine</li>
+                    <li id = "card2_amenity3">📶 WiFi Available</li>
+                    <li id = "card2_amenity4">🚴‍♂️ Bicycle Rentals</li>
+                    <li id = "card2_amenity5">🐶 Pet Friendly</li>
                 </ul>
-                <span class="status-badge unavailable">❌ Unavailable | Booking Closed</span>
+                <span class="status-badge unavailable" id = "card2_availability">❌ Unavailable | Booking Closed</span>
             </div>
             <div class="card-actions">
-                <button class="view-details-btn">View Details</button>
+                <button class="view-details-btn" id = "card2_view">View Details</button>
                 <button class="add-to-wishlist-btn" title="Add to Wishlist"><i class="far fa-heart"></i></button>
             </div>
         </div>
@@ -322,21 +268,21 @@
                 <span class="rating-badge">⭐ 4.7</span>
             </div>
             <div class="card-content">
-                <h3>Mountain View Retreat in Himachal</h3>
-                <p><strong>Location:</strong> Himachal Pradesh</p>
-                <p><strong>Price:</strong> ₹2200/Day</p>
-                <p><strong>🏡 Details:</strong> Dormitory (4 Beds) • Shared Bathrooms • 1500 sq ft</p>
+                <h3 id = "card3_title">Mountain View Retreat in Himachal</h3>
+                <p id = "card3_location"><strong>Location:</strong> Himachal Pradesh</p>
+                <p id = "card3_price"><strong>Price:</strong> ₹2200/Day</p>
+                <p id = "card3_details"><strong>🏡 Details:</strong> Dormitory (4 Beds) • Shared Bathrooms • 1500 sq ft</p>
                 <ul class="amenities">
-                    <li>🏞️ Scenic Views</li>
-                    <li>🔥 Bonfire Area</li>
-                    <li>📶 WiFi Available</li>
-                    <li>🧗‍♂️ Trekking Guides</li>
-                     <li>🏡 Balcony/Terrace</li>
+                    <li id = "card3_amenity1">🏞️ Scenic Views</li>
+                    <li id = "card3_amenity2">🔥 Bonfire Area</li>
+                    <li id = "card3_amenity3">📶 WiFi Available</li>
+                    <li id = "card3_amenity4">🧗‍♂️ Trekking Guides</li>
+                    <li id = "card3_amenity5">🏡 Balcony/Terrace</li>
                 </ul>
-                <span class="status-badge available">✅ Available | Booking Open</span>
+                <span class="status-badge available" id = "card3_availability">✅ Available | Booking Open</span>
             </div>
             <div class="card-actions">
-                <button class="view-details-btn" title="View Details">View Details</button>
+                <button class="view-details-btn" title="View Details" id = "card3_view">View Details</button>
                 <button class="add-to-wishlist-btn" title="Add to Wishlist"><i class="far fa-heart"></i></button>
             </div>
         </div>
@@ -347,21 +293,21 @@
                 <span class="rating-badge">⭐ 4.9</span>
             </div>
             <div class="card-content">
-                <h3>Spacious Villa in Uttarakhand</h3>
-                <p><strong>Location:</strong> Uttarakhand</p>
-                <p><strong>Price:</strong> ₹3000/Day</p>
-                <p><strong>Details:</strong> 🛏️ 3 Bedrooms • 🚿 3 Bathrooms • 📏 2000 sq ft</p>
+                <h3 id = "card4_title">Spacious Villa in Uttarakhand</h3>
+                <p id = "card4_location"><strong>Location:</strong> Uttarakhand</p>
+                <p id = "card4_price"><strong>Price:</strong> ₹3000/Day</p>
+                <p id = "card4_details"><strong>Details:</strong> 🛏️ 3 Bedrooms • 🚿 3 Bathrooms • 📏 2000 sq ft</p>
                 <ul class="amenities">
-                    <li>🌳 private Garden</li>
-                    <li>🍽️ Chef on Request</li>
-                    <li>📶 WiFi Available</li>
-                    <li>🧘‍♀️ Yoga Sessions</li>
-                    <li>🔥 Heating Available</li>
+                    <li id = "card4_amenity1">🌳 private Garden</li>
+                    <li id = "card4_amenity2">🍽️ Chef on Request</li>
+                    <li id = "card4_amenity3">📶 WiFi Available</li>
+                    <li id = "card4_amenity4">🧘‍♀️ Yoga Sessions</li>
+                    <li id = "card4_amenity5">🔥 Heating Available</li>
                 </ul>
-                <span class="status-badge available">✅ Available | Booking Open</span>
+                <span class="status-badge available" id = "card4_availability">✅ Available | Booking Open</span>
             </div>
             <div class="card-actions">
-                <button class="view-details-btn" title="View Details">View Details</button>
+                <button class="view-details-btn" title="View Details" id = "card4_view">View Details</button>
                 <button class="add-to-wishlist-btn" title="Add to Wishlist"><i class="far fa-heart"></i></button>
             </div>
         </div>
@@ -372,21 +318,21 @@
                 <span class="rating-badge">⭐ 4.6</span>
             </div>
             <div class="card-content">
-                <h3>Heritage Home in Tamil Nadu</h3>
-                <p><strong>Location:</strong> Tamil Nadu</p>
-                <p><strong>Price:</strong> ₹2800/Day</p>
-                <p><strong>Details:</strong> 🛏️ 2 Bedrooms • 🚿 private Bathroom • 📏 1000 sq ft</p>
+                <h3 id = "card5_title">Heritage Home in Tamil Nadu</h3>
+                <p id = "card5_location"><strong>Location:</strong> Tamil Nadu</p>
+                <p id = "card5_price"><strong>Price:</strong> ₹2800/Day</p>
+                <p id = "card5_details"><strong>Details:</strong> 🛏️ 2 Bedrooms • 🚿 private Bathroom • 📏 1000 sq ft</p>
                 <ul class="amenities">
-                    <li>🏺 Cultural Tours</li>
-                    <li>🍽️ Traditional Cuisine</li>
-                    <li>📶 WiFi Available</li>
-                    <li>🌅 Sunset Views</li>
-                    <li>🚗 Parking Available</li>
+                    <li id = "card5_amenity1">🏺 Cultural Tours</li>
+                    <li id = "card5_amenity2">🍽️ Traditional Cuisine</li>
+                    <li id = "card5_amenity3">📶 WiFi Available</li>
+                    <li id = "card5_amenity4">🌅 Sunset Views</li>
+                    <li id = "card5_amenity5">🚗 Parking Available</li>
                 </ul>
-                <span class="status-badge unavailable">❌ Unavailable | Booking closed</span>
+                <span class="status-badge unavailable" id = "card5_availability">❌ Unavailable | Booking closed</span>
             </div>
             <div class="card-actions">
-                <button class="view-details-btn" title="View Details">View Details</button>
+                <button class="view-details-btn" title="View Details" id = "card5_view">View Details</button>
                 <button class="add-to-wishlist-btn" title="Add to Wishlist"><i class="far fa-heart"></i></button>
             </div>
         </div>
@@ -397,21 +343,21 @@
                 <span class="rating-badge">⭐ 4.4</span>
             </div>
             <div class="card-content">
-                <h3>Charming Cottage in Madhya Pradesh</h3>
-                <p><strong>Location:</strong> Madhya Pradesh</p>
-                <p><strong>Price:</strong> ₹1500/Day</p>
-                <p><strong>Details:</strong> 🛏️ 1 Bedroom • 🚿 shared Bathroom • 📏 650 sq ft</p>
+                <h3 id = "card6_title">Charming Cottage in Madhya Pradesh</h3>
+                <p id = "card6_location"><strong>Location:</strong> Madhya Pradesh</p>
+                <p id = "card6_price"><strong>Price:</strong> ₹1500/Day</p>
+                <p id = "card6_details"><strong>Details:</strong> 🛏️ 1 Bedroom • 🚿 shared Bathroom • 📏 650 sq ft</p>
                 <ul class="amenities">
-                    <li>🌼 Garden Access</li>
-                    <li>🍽️ Local Dishes</li>
-                    <li>📶 WiFi Available</li>
-                    <li>🎣 Fishing Nearby</li>
-                    <li>🐶 Pet Friendly</li>
+                    <li id = "card6_amenity1">🌼 Garden Access</li>
+                    <li id = "card6_amenity2">🍽️ Local Dishes</li>
+                    <li id = "card6_amenity3">📶 WiFi Available</li>
+                    <li id = "card6_amenity4">🎣 Fishing Nearby</li>
+                    <li id = "card6_amenity5">🐶 Pet Friendly</li>
                 </ul>
-                <span class="status-badge available">✅ Available | Booking Open</span>
+                <span class="status-badge available" id = "card6_availability">✅ Available | Booking Open</span>
             </div>
             <div class="card-actions">
-                <button class="view-details-btn" title="View Details">View Details</button>
+                <button class="view-details-btn" title="View Details" id = "card6_view">View Details</button>
                 <button class="add-to-wishlist-btn" title="Add to Wishlist"><i class="far fa-heart"></i></button>
             </div>
         </div>
@@ -420,31 +366,31 @@
 
 
 <section id="map" class="map-section">
-    <h2>Explore Our Homestay Locations</h2>
-    <p>Discover homestays near you or in your desired location with our interactive map. Click on a pin for details.</p>
+    <h2 id = "map_explore">Explore Our Homestay Locations</h2>
+    <p id = "map_explore_text">Discover homestays near you or in your desired location with our interactive map. Click on a pin for details.</p>
 
     
     <div class="map-filters">
-        <label for="mapLocationFilter">Filter by Location:</label>
+        <label for="mapLocationFilter" id = "map_explore_filter">Filter by Location:</label>
         <select id="mapLocationFilter">
-            <option value="all">All Locations</option>
-            <option value="Rajasthan">Rajasthan</option>
-            <option value="Kerala">Kerala</option>
-            <option value="Himachal Pradesh">Himachal Pradesh</option>
-            <option value="Uttarakhand">Uttarakhand</option>
-            <option value="Tamil Nadu">Tamil Nadu</option>
-            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="all" id = "map_explore_all">All Locations</option>
+            <option value="Rajasthan" id = "map_opt1">Rajasthan</option>
+            <option value="Kerala" id = "map_opt2">Kerala</option>
+            <option value="Himachal Pradesh" id = "map_opt3">Himachal Pradesh</option>
+            <option value="Uttarakhand" id = "map_opt4">Uttarakhand</option>
+            <option value="Tamil Nadu" id = "map_opt5">Tamil Nadu</option>
+            <option value="Madhya Pradesh" id = "map_opt6">Madhya Pradesh</option>
         </select>
 
-        <label for="mapPriceFilter">Price Range:</label>
+        <label for="mapPriceFilter" id = "map_price">Price Range:</label>
         <select id="mapPriceFilter">
-            <option value="all">All Prices</option>
-            <option value="0-3000">₹1000 - ₹3000</option>
-            <option value="3000-5000">₹3000 - ₹5000</option>
-            <option value="5000+">₹5000 - ₹10000</option>
+            <option value="all" id = "map_price_all">All Prices</option>
+            <option value="0-3000" id = "map_price1">₹1000 - ₹3000</option>
+            <option value="3000-5000" id = "map_price2">₹3000 - ₹5000</option>
+            <option value="5000+" id = "map_price3">₹5000 - ₹10000</option>
         </select>
 
-        <button id="mapFilterApply" class="map-filter-btn">Apply Filters</button>
+        <button id="mapFilterApply" class="map-filter-btn" id = "map_apply_filter">Apply Filters</button>
     </div>
 
     
@@ -456,76 +402,76 @@
 
 
 <section id="booking" class="booking-section">
-    <h2>Book Your Homestay</h2>
-    <p>Experience comfort and luxury at our homestay. Choose your preferences and secure your perfect stay today!</p>
+    <h2 id = "book_title">Book Your Homestay</h2>
+    <p id = "book_text">Experience comfort and luxury at our homestay. Choose your preferences and secure your perfect stay today!</p>
 
     <form id="bookingForm">
         
         <div class="form-group">
-            <label for="checkInDate">Check-In Date:</label>
+            <label for="checkInDate" id = "book_checkin">Check-In Date:</label>
             <input type="date" id="checkInDate" required>
         </div>
         <div class="form-group">
-            <label for="checkOutDate">Check-Out Date:</label>
+            <label for="checkOutDate" id = "book_checkout">Check-Out Date:</label>
             <input type="date" id="checkOutDate" required>
         </div>
 
         
         <div class="form-group">
-            <label for="selectedLocation">Select Your Destination:</label>
+            <label for="selectedLocation" id = "book_destination">Select Your Destination:</label>
             <select id="selectedLocation" required>
-                <option value="" disabled selected>Select Location</option>
-                <option value="Rajasthan">Rajasthan</option>
-                <option value="Kerala">Kerala</option>
-                <option value="Himachal Pradesh">Himachal Pradesh</option>
-                <option value="Uttarakhand">Uttarakhand</option>
-                <option value="Tamil Nadu">Tamil Nadu</option>
-                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="" disabled selected id = "book_location">Select Location</option>
+                <option value="Rajasthan" id = "book_opt1">Rajasthan</option>
+                <option value="Kerala" id = "book_opt2">Kerala</option>
+                <option value="Himachal Pradesh" id = "book_opt3">Himachal Pradesh</option>
+                <option value="Uttarakhand" id = "book_opt4">Uttarakhand</option>
+                <option value="Tamil Nadu" id = "book_opt5">Tamil Nadu</option>
+                <option value="Madhya Pradesh" id = "book_opt6">Madhya Pradesh</option>
             </select>
         </div>
 
         
         <div class="form-group">
-            <label for="guestCount">Number of Guests:</label>
+            <label for="guestCount" id = "book_guests">Number of Guests:</label>
             <select id="guestCount" required>
-                <option value="" disabled selected>Select Guests</option>
-                <option value="1">1 Guest</option>
-                <option value="2">2 Guests</option>
-                <option value="3">3 Guests</option>
-                <option value="4">4 Guests</option>
-                <option value="5">5 Guests</option>
-                <option value="6">6+ Guests</option>
+                <option value="" disabled selected id = "guest_select">Select Guests</option>
+                <option value="1" id = "guest_opt1">1 Guest</option>
+                <option value="2" id = "guest_opt2">2 Guests</option>
+                <option value="3" id = "guest_opt3">3 Guests</option>
+                <option value="4" id = "guest_opt4">4 Guests</option>
+                <option value="5" id = "guest_opt5">5 Guests</option>
+                <option value="6" id = "guest_opt6">6+ Guests</option>
             </select>
         </div>
 
         
         <div class="form-group">
-            <label for="roomType">Select Room Type:</label>
+            <label for="roomType" id = "book_room">Select Room Type:</label>
             <select id="roomType" required>
-                <option value="" disabled selected>Choose a Room Type</option>
-                <option value="deluxe">Deluxe Room</option>
-                <option value="suite">Luxury Suite</option>
-                <option value="cottage">Private Cottage</option>
-                <option value="villa">Beachfront Villa</option>
+                <option value="" disabled selected id = "room_select">Choose a Room Type</option>
+                <option value="deluxe" id = "room_opt1">Deluxe Room</option>
+                <option value="suite" id = "room_opt2">Luxury Suite</option>
+                <option value="cottage" id = "room_opt3">Private Cottage</option>
+                <option value="villa" id = "room_opt4">Beachfront Villa</option>
             </select>
         </div>
 
         
         <div class="form-group">
-            <label for="specialRequests">Any Special Requests?</label>
+            <label for="specialRequests" id = "special_opt">Any Special Requests?</label>
             <textarea id="specialRequests" placeholder="E.g., Early check-in, extra pillows, vegetarian meals, etc." rows="3"></textarea>
         </div>
 
         
         <div class="price-summary">
-            <h3>Estimated Price:</h3>
+            <h3 id = "book_est_price">Estimated Price:</h3>
             <p id="priceDisplay">₹0.00</p>
         </div>
 
         
         <div class="form-actions">
             <button type="button" id="calculatePriceBtn" class="calculate-price-btn">Calculate Price</button>
-            <button type="submit" class="book-now-btn">Proceed to Booking</button>
+            <button type="submit" class="book-now-btn" id = "confirm_book">Proceed to Booking</button>
         </div>
     </form>
 
@@ -533,35 +479,61 @@
     <div class="booking-confirmation-modal" id="bookingConfirmationModal">
         <div class="modal-content">
             <span class="close" id="closeConfirmationModal">&times;</span>
-            <h2>Booking Confirmation</h2>
-            <p>Your perfect getaway is almost set! Review your details and confirm your booking.</p>
+            <h2 id = "confirm_title">Booking Confirmation</h2>
+            <p id = "confirm_text">Your perfect getaway is almost set! Review your details and confirm your booking.</p>
 
-            <div class="booking-summary">
-                <h3>Stay Details</h3>
-                <p><strong>Location:</strong> <span id="confirmselectedLocation"></span></p>
-                <p><strong>Check-In Date:</strong> <span id="confirmCheckInDate"></span></p>
-                <p><strong>Check-Out Date:</strong> <span id="confirmCheckOutDate"></span></p>
-                <p><strong>Number of Guests:</strong> <span id="confirmGuestCount"></span></p>
-                <p><strong>Room Type:</strong> <span id="confirmRoomType"></span></p>
-                <p><strong>Special Requests:</strong> <span id="confirmSpecialRequests"></span></p>
-            </div>
-
-            <div class="payment-info">
-                <h3>Payment Summary</h3>
-                <p><strong>Total Cost:</strong> <span id="confirmTotalCost"></span></p>
-                <p><strong>Payment Method:</strong> Credit Card / UPI / Net Banking</p>
-            </div>
-
-            <div class="confirmation-actions">
-                <button id="confirmBookingBtn">Confirm Booking</button>
-            </div>
-
-            <div class="confirmation-message" id="confirmationMessage">
-                <h3>Booking Confirmed! 🎉</h3>
-                <p>Your booking reference number is: <strong>#<span id="bookingReferenceNumber"></span></strong></p>
-                <p>A confirmation email has been sent with all your booking details.</p>
-            </div>
+        <div class="booking-summary">
+          <h3 id = "stay_detail">Stay Details</h3>
+          <p id = "stay_location">
+            <strong>Location:</strong>
+            <span id="confirmselectedLocation"></span>
+          </p>
+          <p id = "stay_checkin">
+            <strong>Check-In Date:</strong>
+            <span id="confirmCheckInDate"></span>
+          </p>
+          <p id = "stay_checkout">
+            <strong>Check-Out Date:</strong>
+            <span id="confirmCheckOutDate"></span>
+          </p>
+          <p id = "stay_guests">
+            <strong>Number of Guests:</strong>
+            <span id="confirmGuestCount"></span>
+          </p>
+          <p id = "stay_room">
+            <strong>Room Type:</strong> <span id="confirmRoomType"></span>
+          </p>
+          <p id = "stay_spl">
+            <strong>Special Requests:</strong>
+            <span id="confirmSpecialRequests"></span>
+          </p>
         </div>
+
+        <div class="payment-info">
+          <h3 id = "stay_pay">Payment Summary</h3>
+          <p id = "stay_cost">
+            <strong>Total Cost:</strong> <span id="confirmTotalCost"></span>
+          </p>
+          <p id = "stay_pay_method">
+            <strong>Payment Method:</strong> Credit Card / UPI / Net Banking
+          </p>
+        </div>
+
+        <div class="confirmation-actions">
+          <button id = "stay_confirm">Confirm Booking</button>
+        </div>
+
+        <div class="confirmation-message" id="confirmationMessage">
+          <h3 id = "book_confirm_title">Booking Confirmed! 🎉</h3>
+          <p id = "book_confirm_text">
+            Your booking reference number is:
+            <strong>#<span id="bookingReferenceNumber"></span></strong>
+          </p>
+          <p id = "book_confirm_email">
+            A confirmation email has been sent with all your booking details.
+          </p>
+        </div>
+      </div>
     </div>
 </section>
 
@@ -569,147 +541,174 @@
 
 <section class="carousel-container">
     <div class="carousel">
-           <h2>What Our Travelers Say</h2>
-           <div class="testimonial-item active">
-            <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Prachi.png" alt="Sanchali Saha">
-                <h4><b>Amazing Homestay Experience</b></h4>
-                <p>"An unforgettable experience! The hospitality was incredible!"</p>
-                <p class="author">- Sanchali Saha</p>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-            </div>
-
-        <div class="testimonial-item">
-            <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Vaibhav.png" alt="Rajesh Kumar">
-            <h4><b>Comfortable Bus Journey</b></h4>
-            <p>"The bus journey was smooth and comfortable. The seats were spacious, and the staff was very helpful."</p>
-            <p class="author">- Rajesh Kumar</p>
-            <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
+      <h2 id = "carousel_title">What Our Travelers Say</h2>
+      <div class="testimonial-item active">
+        <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Prachi.png" alt="Sanchali Saha" />
+        <h4 id = "comment1_title"><b>Amazing Homestay Experience</b></h4>
+        <p id = "comment1_text">"An unforgettable experience! The hospitality was incredible!"</p>
+        <p class="author" id = "comment1_author">- Sanchali Saha</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
         </div>
+      </div>
 
-        <div class="testimonial-item">
-            <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Sreesti.png" alt="Priya Mehta">
-            <h4><b>Excellent Services</b></h4>
-            <p>"From booking to the actual trip, everything was seamless. The team was always available to assist us."</p>
-            <p class="author">- Priya Mehta</p>
-            <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
+      <div class="testimonial-item">
+        <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Vaibhav.png" alt="Rajesh Kumar" />
+        <h4 id = "comment2_title"><b>Comfortable Bus Journey</b></h4>
+        <p id = "comment2_text">
+          "The bus journey was smooth and comfortable. The seats were
+          spacious, and the staff was very helpful."
+        </p>
+        <p class="author" id = "comment2_author">- Rajesh Kumar</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
         </div>
+      </div>
 
-        <div class="testimonial-item">
-            <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Saumya.png" alt="Ananya Das">
-            <h4><b>Beautiful Homestay</b></h4>
-            <p>"The homestay was cozy and surrounded by nature. Perfect for a peaceful getaway!"</p>
-            <p class="author">- Ananya Das</p>
-            <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
+      <div class="testimonial-item">
+        <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Sreesti.png" alt="Priya Mehta" />
+        <h4 id = "comment3_title"><b>Excellent Services</b></h4>
+        <p id = "comment3_text">
+          "From booking to the actual trip, everything was seamless. The team
+          was always available to assist us."
+        </p>
+        <p class="author" id = "comment3_author">- Priya Mehta</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
         </div>
+      </div>
 
-        <div class="testimonial-item">
-            <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Palak.png" alt="Sonali Sharma">
-            <h4><b>Amazing Homestay Experience</b></h4>
-            <p>"An unforgettable experience! The hospitality was incredible, and the location was serene. Highly recommended!"</p>
-            <p class="author">- Sonali Sharma</p>
-            <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
+      <div class="testimonial-item">
+        <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Saumya.png" alt="Ananya Das" />
+        <h4 id = "comment4_title"><b>Beautiful Homestay</b></h4>
+        <p id = "comment4_text">
+          "The homestay was cozy and surrounded by nature. Perfect for a
+          peaceful getaway!"
+        </p>
+        <p class="author" id = "comment4_author">- Ananya Das</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
         </div>
+      </div>
 
-        <div class="testimonial-item">
-            <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Ayush.png" alt="Vikram Singh">
-            <h4><b>Affordable Payment</b></h4>
-            <p>"The packages were reasonably priced, and the payment process was hassle-free. Great value for money!"</p>
-            <p class="author">- Vikram Singh</p>
-            <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
+      <div class="testimonial-item">
+        <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Palak.png" alt="Sonali Sharma" />
+        <h4 id = "comment5_title"><b>Amazing Homestay Experience</b></h4>
+        <p id = "comment5_text">
+          "An unforgettable experience! The hospitality was incredible, and
+          the location was serene. Highly recommended!"
+        </p>
+        <p class="author" id = "comment5_author">- Sonali Sharma</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
         </div>
+      </div>
 
-        <div class="testimonial-item">
-            <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Japit.png" alt="Neha Gupta">
-            <h4><b>Memorable Experience</b></h4>
-            <p>"Every moment of the trip was memorable. The guides were knowledgeable, and the itinerary was well-planned."</p>
-            <p class="author">- Neha Gupta</p>
-            <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
+      <div class="testimonial-item">
+        <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Ayush.png" alt="Vikram Singh" />
+        <h4 id = "comment6_title"><b>Affordable Payment</b></h4>
+        <p id = "comment6_text">
+          "The packages were reasonably priced, and the payment process was
+          hassle-free. Great value for money!"
+        </p>
+        <p class="author" id = "comment6_author">- Vikram Singh</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
         </div>
+      </div>
 
-        <div class="testimonial-item">
-            <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Ridham.png" alt="Arjun Patel">
-            <h4><b>Scenic Places</b></h4>
-            <p>"The places we visited were breathtaking. Each location was more beautiful than the last!"</p>
-            <p class="author">- Arjun Patel</p>
-            <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
+      <div class="testimonial-item">
+        <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Japit.png" alt="Neha Gupta" />
+        <h4 id = "comment7_title"><b>Memorable Experience</b></h4>
+        <p id = "comment7_text">
+          "Every moment of the trip was memorable. The guides were
+          knowledgeable, and the itinerary was well-planned."
+        </p>
+        <p class="author" id = "comment7_author">- Neha Gupta</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
         </div>
+      </div>
 
-        <div class="testimonial-item">
-            <img src="https://cdn1.byjus.com/byjusweb/img/successpage/arfaatk.png" alt="Sreham Hazra">
-            <h4><b>Friendly Staff</b></h4>
-            <p>"The staff was very friendly and accommodating. They made us feel at home throughout the trip."</p>
-            <p class="author">- Sreham Hazra</p>
-            <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
+      <div class="testimonial-item">
+        <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Ridham.png" alt="Arjun Patel" />
+        <h4 id = "comment8_title"><b>Scenic Places</b></h4>
+        <p id = "comment8_text">
+          "The places we visited were breathtaking. Each location was more
+          beautiful than the last!"
+        </p>
+        <p class="author" id = "comment8_author">- Arjun Patel</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
         </div>
+      </div>
 
-        <div class="testimonial-item">
-            <img src="https://cdn1.byjus.com/byjusweb/img/successpage/kunal_kundwani.png" alt="Ravi Shankar">
-            <h4><b>Well-Organized Trip</b></h4>
-            <p>"Everything was well-organized, from transportation to accommodations. We didn’t have to worry about a thing!"</p>
-            <p class="author">- Ravi Shankar</p>
-            <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-        </div>  
+      <div class="testimonial-item">
+        <img src="https://cdn1.byjus.com/byjusweb/img/successpage/arfaatk.png" alt="Sreham Hazra" />
+        <h4 id = "comment9_title"><b>Friendly Staff</b></h4>
+        <p id = "comment9_text">
+          "The staff was very friendly and accommodating. They made us feel at
+          home throughout the trip."
+        </p>
+        <p class="author" id = "comment9_author">- Sreham Hazra</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
         </div>
+      </div>
+
+      <div class="testimonial-item">
+        <img src="https://cdn1.byjus.com/byjusweb/img/successpage/kunal_kundwani.png" alt="Ravi Shankar" />
+        <h4 id = "comment10_title"><b>Well-Organized Trip</b></h4>
+        <p id = "comment10_text">
+          "Everything was well-organized, from transportation to
+          accommodations. We didn’t have to worry about a thing!"
+        </p>
+        <p class="author" id = "comment10_author">- Ravi Shankar</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+    </div>
 
         
         <button class="button prev" onclick="changeTestimonial(-1)">&#10094;</button>
@@ -720,51 +719,51 @@
 </section>
 
 
-<section id="faq" class="faq-section">
-    <h2>Frequently Asked Questions</h2>
+  <section id="faq" class="faq-section">
+    <h2 id = "faqs_title">Frequently Asked Questions</h2>
     <div class="faq-item">
         <div class="question">
-            <h3>How do I book a homestay?</h3>
+            <h3 id = "faqs_q1">How do I book a homestay?</h3>
             <span class="arrow">&#9662;</span>
         </div>
         <div class="answer">
-            <p>Use our booking form to select your dates and number of guests. Click "Book Now" to confirm your reservation.</p>
+            <p id = "faqs_a1">Use our booking form to select your dates and number of guests. Click "Book Now" to confirm your reservation.</p>
         </div>
     </div>
     <div class="faq-item">
         <div class="question">
-            <h3>What is the cancellation policy?</h3>
+            <h3 id = "faqs_q2">What is the cancellation policy?</h3>
             <span class="arrow">&#9662;</span>
         </div>
         <div class="answer">
-            <p>Cancellations are free up to 7 days before check-in. A 50% refund is provided for cancellations made within 7 days of check-in.</p>
+            <p id = "faqs_a2">Cancellations are free up to 7 days before check-in. A 50% refund is provided for cancellations made within 7 days of check-in.</p>
         </div>
     </div>
     <div class="faq-item">
         <div class="question">
-            <h3>Are pets allowed in the homestay?</h3>
+            <h3 id = "faqs_q3">Are pets allowed in the homestay?</h3>
             <span class="arrow">&#9662;</span>
         </div>
         <div class="answer">
-            <p>Yes, we are pet-friendly! Please inform us in advance if you plan to bring your pet.</p>
+            <p id = "faqs_a3">Yes, we are pet-friendly! Please inform us in advance if you plan to bring your pet.</p>
         </div>
     </div>
     <div class="faq-item">
         <div class="question">
-            <h3>What amenities are included in the homestay?</h3>
+            <h3 id = "faqs_q4">What amenities are included in the homestay?</h3>
             <span class="arrow">&#9662;</span>
         </div>
         <div class="answer">
-            <p>All our homestays come with free Wi-Fi, kitchen access, and complimentary breakfast.</p>
+            <p id = "faqs_a4">All our homestays come with free Wi-Fi, kitchen access, and complimentary breakfast.</p>
         </div>
     </div>
     <div class="faq-item">
         <div class="question">
-            <h3>Is there parking available?</h3>
+            <h3 id = "faqs_q5">Is there parking available?</h3>
             <span class="arrow">&#9662;</span>
         </div>
         <div class="answer">
-            <p>Yes, we offer free parking for all our guests. Please reserve a spot in advance.</p>
+            <p id = "faqs_a5">Yes, we offer free parking for all our guests. Please reserve a spot in advance.</p>
         </div>
     </div>
 </section>
@@ -772,87 +771,88 @@
    
 <footer class="footer">
     <div class="footer-container">
-        <!-- First Row: Rural Retreats, Quick Links, Customer Support -->
-        <div class="footer-row">            
-            <div class="footer-section about">
-                <h3 class="footer-title">Rural Retreats</h3>
-                
-                <p>
-                  We offer budget-friendly tours, curated travel experiences, and
-                  luxury escapes worldwide.
-                </p>
-              </div>
+      <!-- First Row: Rural Retreats, Quick Links, Customer Support -->
+      <div class="footer-row">
+        <div class="footer-section about">
+          <h3 class="footer-title" translate="no">Rural Retreats</h3>
+          <p id="footer_text">
+            We offer budget-friendly tours, curated travel experiences, and
+            luxury escapes worldwide.
+          </p>
+        </div>
 
-              <div class="footer-section links">
-                <h4>Quick Links</h4>
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="homestays.html">Hotels & Homestays</a></li>
-                  <li><a href="#blog-highlights">Travel Guides</a></li>
-                  <li><a href="faq.html">FAQs</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-              </div>
-
+        <div class="footer-section links">
+          <h4 id = "footer_quicklinks">Quick Links</h4>
+          <ul>
+            <li><a id = "footer_home" href="index.html">Home</a></li>
+            <li><a id = "footer_about_link" href="about.html">About Us</a></li>
+            <li><a id = "footer_services" href="services.html">Services</a></li>
+            <li><a id = "footer_hotels" href="homestays.html">Hotels & Homestays</a></li>
+            <li><a id = "footer_guides" href="#blog-highlights">Travel Guides</a></li>
+            <li><a id = "footer_faq" href="faq.html">FAQs</a></li>
+            <li><a id = "footer_contact" href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
 
                 <div class="footer-section contact">
-                    <h4>Customer Support</h4>
-                    <p>
+                    <h4 id = "footer_support">Customer Support</h4>
+                    <p id = "footer_email">
                     Email: <a href="mailto:support@ruralretreats.com">support@ruralretreats.com</a>
                     </p>
-                    <p>Phone: <a href="tel:+91629XXXXXXX">+91 629XX XXXXX</a></p>
-                    <p>
+                    <p id = "footer_phone">Phone: <a href="tel:+91629XXXXXXX">+91 629XX XXXXX</a></p>
+                    <p id = "footer_address">
                     Address:  University Institute Of Technology, Burdwan-713104, West
                     Bengal
                     </p>
             </div>      
         </div>
 
-        <!-- Second Row: Social Media, Language Selector, Newsletter -->
-        <div class="footer-row">
-            <div class="footer-section social-media">
-                <h4>Follow Us</h4>
-                <div class="social-icons">
-                    <a href="#" class="youtube" title="youtube"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="#" class="instagram" title="instagram"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#" class="twitter" title="twitter"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#" class="linkedin" title="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
-                  </div>
-            </div>
+      <!-- Second Row: Social Media, Language Selector, Newsletter -->
+      <div class="footer-row">
+        <div class="footer-section social-media">
+          <h4 id = "footer_follow">Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" class="youtube" title="youtube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="instagram" title="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="twitter" title="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="linkedin" title="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
 
-            <div class="footer-section language-selector">
-                <h4>Language</h4>
-                <label for="language-select">Choose Language:</label>
-                <select id="language-select">
-                  <option>English</option>
-                  <option>Bengali</option>
-                  <option>Hindi</option>
-                  <option>French</option>
-                  <option>Spanish</option>
-                  <option>German</option>
-                </select>
-              </div>
+        <div class="footer-section language-selector">
+          <h4 id = "footer_language">Language</h4>
+          <label id = "footer_lang_label" for="language-select">Choose Language:</label>
+          <select id="language-select">
+            <option value="en">English</option>
+            <option value="bn">Bengali</option>
+            <option value="hi">Hindi</option>
+            <option value="fr">French</option>
+            <option value="es">Spanish</option>
+            <option value="de">German</option>
+          </select>
+        </div>
 
-            <div class="footer-section newsletter">
-                <h4>Newsletter</h4>
-                <p>Subscribe for exclusive travel deals!</p>
-                <div class="newsletter">
-                    <input type="email" placeholder="Enter your email" id="newsletter-email" required>
-                    <button type="submit" class="footer-newsletter-btn" onclick="subscribeNewsletter()"><b>Subscribe</b></button>
-                </div>
-            </div>
+        <div class="footer-section newsletter">
+          <h4 id = "footer_newsletter_heading">Newsletter</h4>
+          <p id = "footer_newsletter">Subscribe for exclusive travel deals!</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" id="newsletter-email"  required />
+            <button type="submit" class="footer-newsletter-btn" id = "footer-newsletter-btn"onclick="subscribeNewsletter()">
+              <b>Subscribe</b>
+            </button>
+
+          </div>
         </div>
     </div>
 
     <div class="footer-bottom">
-        <p>
-          &copy; 2025 Rural Retreats. All rights reserved. |
-          <a href="pp.html">Privacy Policy</a> | <a href="t&c.html">Terms & Conditions</a>
-        </p>
-      </div>
-</footer> 
+      <p id = "footer_rights">
+        &copy; 2025 <span translate="no">Rural Retreats.</span> All rights reserved. |
+        <a href="pp.html">Privacy Policy</a> |
+        <a href="t&c.html">Terms & Conditions</a>
+      </p>
+    </div>
+  </footer>
 
 <button id="backToTop" class="back-to-top-btn" title="Go to top">↑</button>
 
@@ -862,10 +862,10 @@
 </div>
 
 
-<div id="chatModal" class="chatbot-modal">
-<div class="chatbot-modal-content">
-    <div class="chatbot-header">
-        <h3>Chat with Us</h3>
+  <div id="chatModal" class="chatbot-modal">
+    <div class="chatbot-modal-content">
+      <div class="chatbot-header">
+        <h3 id = "chatbot_header">Chat with Us</h3>
         <span class="close-chatbot">&times;</span>
     </div>
     <div class="chatbot-body">

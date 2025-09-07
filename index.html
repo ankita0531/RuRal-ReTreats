@@ -102,6 +102,8 @@
     <script defer src="./JS/enhanced-search-popup.js"></script>
     <script defer src="./JS/navbar.js"></script>
     <script defer src="./JS/newsletter-validation.js"></script>
+    <script src="./JS/translate.js" defer></script>
+    <script src="./JS/blogtranslation.js" defer></script>
 
     <!-- Structured Data - Organization -->
     <script type="application/ld+json">
@@ -220,9 +222,11 @@
       ]
     }
     </script>
+  <script src="./JS/translate.js" defer></script>
+  
 </head>
 
-<body class="no-scroll">
+<body data-page ="index"  class="no-scroll">
 
   <div class="splash-screen" id="splash">
     <div class="sparkles"></div>
@@ -260,28 +264,28 @@
         </div>
 
         <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
+          <li><a id = "navbar_home" href="index.html">Home</a></li>
           <li class="dropdown">
-            <a href="services.html">Services <i class="fas fa-chevron-down"></i></a>
+            <a id = "navbar_services" href="services.html">Services <i class="fas fa-chevron-down"></i></a>
             <ul class="dropdown-menu">
-              <li><a href="services.html#tours">Holiday Packages</a></li>
-              <li><a href="services.html#bus">Bus Booking</a></li>
-              <li><a href="services.html#homestays">Homestays Booking</a></li>
+              <li><a id = "navbar_holiday" href="services.html#tours">Holiday Packages</a></li>
+              <li><a id = "navbar_bus" href="services.html#bus">Bus Booking</a></li>
+              <li><a id = "navbar_homestay" href="services.html#homestays">Homestays Booking</a></li>
             </ul>
           </li>
-          <li><a href="homestays.html">HomeStays</a></li>
-          <li><a href="faq.html">FAQs</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a id = "navbar_homestays" href="homestays.html">HomeStays</a></li>
+          <li><a id = "navbar_faq" href="faq.html">FAQs</a></li>
+          <li><a id = "navbar_contact" href="contact.html">Contact Us</a></li>
         </ul>
 
         <div class="right-section">
           <div class="search-bar">
             <input type="text" placeholder="Search..." id="search-input" />
-            <button title="search"><i class="fas fa-search"></i></button>
+            <button id = "search_btn" title="search"><i class="fas fa-search"></i></button>
           </div>
           
             <div class="auth-buttons desktop-only">
-              <button class="login-btn" onclick="window.location.href='login.html'">
+              <button class="login_btn" id = "login_btn" onclick="window.location.href='login.html'">
                 Log In
               </button> 
             </div>
@@ -301,16 +305,16 @@
 
       <div class="mobile-search-bar">
         <input type="text" placeholder="Search..." id="mobile-search-input" />
-        <button title="search"><i class="fas fa-search"></i></button>
+        <button id = "search_btn" title="search"><i class="fas fa-search"></i></button>
       </div>
 
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="homestays.html">HomeStays</a></li>
-        <li><a href="faq.html">FAQs</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <button class="login-btn mobile-only" onclick="window.location.href='login.html'">
+        <li><a id = "navbar_home" href="index.html">Home</a></li>
+        <li><a id = "navbar_services" href="services.html">Services</a></li>
+        <li><a id = "navbar_homestays" href="homestays.html">HomeStays</a></li>
+        <li><a id = "navbar_faq" href="faq.html">FAQs</a></li>
+        <li><a id = "navbar_contact" href="contact.html">Contact Us</a></li>
+        <button class="login-btn mobile-only" id = "login_btn" onclick="window.location.href='login.html'">
           Log In
         </button> 
         
@@ -323,9 +327,9 @@
     <section class="hero-banner">
       <div class="overlay"></div>
       <div class="hero-content">
-        <h1>Experience the Charm of Rural Life</h1>
-        <p>Authentic Homestays, Cultural Immersion, Sustainable Tourism.</p>
-        <a href="village.html" class="cta-button">Explore Now</a>
+        <h1 id = "hero_title1">Experience the Charm of Rural Life</h1>
+        <p id = "hero_text1">Authentic Homestays, Cultural Immersion, Sustainable Tourism.</p>
+        <a id = "hero_explore" href="village.html" class="cta-button">Explore Now</a>
 
       </div>
     </section>
@@ -333,22 +337,22 @@
   <section class="about-section" id="about-sections">
     <div class="about-container">
       <div class="about-content">
-        <h2>About Us</h2>
-        <h3>Escape the City – Embrace the Serenity</h3>
-        <p>
+        <h2 id = "about_title">About Us</h2>
+        <h3 id = "about_subtitle">Escape the City – Embrace the Serenity</h3>
+        <p id = "about_text1">
           Experience the charm of countryside and beachside homestays with
           <b>Rural Retreats</b>. Enjoy
           <b>cultural heritage, local cuisines, and breathtaking landscapes</b>
           while staying in handpicked accommodations at
           <b>affordable prices</b>.
         </p>
-        <p>
+        <p id = "about_text2">
           Book your <b>bus tickets</b> and plan your stay in peaceful rural
           homestays or rejuvenating beachside cottages. Immerse yourself in
           <b>local traditions, scenic beauty, and adventure</b>
           while making unforgettable memories.
         </p>
-        <a href="about.html" class="cta-button">Know more</a>
+        <a id = "know_btn" href="about.html" class="cta-button">Know more</a>
       </div>
 
       <div class="about-image">
@@ -360,20 +364,20 @@
   </section>
 
   <section class="carousel-sections">
-    <h2>Explore Our Destinations</h2>
+    <h2 id = "carousel_heading">Explore Our Destinations</h2>
     <div class="carousel-grid destination-grid">
       <div class="carousel-containers">
         <div class="destination-card active">
           <img src="./img/1.jpg" alt="Enchanting Caves" class="destination-image" />
-          <h3>Enchanting Caves</h3>
-          <p class="location">
+          <h3 id = "opt1_title">Enchanting Caves</h3>
+          <p id = "opt1_location" class="location">
             <b>📍Location: Ajanta & Ellora Caves, Maharashtra</b>
           </p>
-          <p>
+          <p id = "opt1_text1">
             A UNESCO World Heritage site, famous for its rock-cut temples,
             intricate carvings, and ancient Buddhist murals.
           </p>
-          <p>A beautiful place to visit</p>
+          <p id = "opt1_text2">A beautiful place to visit</p>
           <div class="rating">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -381,20 +385,20 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt1_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/2.jpg" alt="Lush Rainforest" class="destination-image" />
-          <h3>Lush Rainforest</h3>
-          <p class="location">
+          <h3 id = "opt2_title">Lush Rainforest</h3>
+          <p id = "opt2_location" class="location">
             <b>📍Location: Silent Valley National Park, Kerala</b>
           </p>
-          <p>
+          <p id = "opt2_text1">
             A pristine rainforest with diverse wildlife, towering trees, and
             mesmerizing waterfalls—perfect for nature lovers and trekkers.
           </p>
-          <p>A beautiful place to visit</p>
+          <p id = "opt2_text2">A beautiful place to visit</p>
           <div class="rating">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -402,19 +406,19 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt2_learn"href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/3.jpg" alt="Heritage Town" class="destination-image" />
-          <h3>Heritage Town</h3>
-          <p class="location"><b>📍Location: Pondicherry</b></p>
-          <p>
+          <h3 id = "opt3_title">Heritage Town</h3>
+          <p id = "opt3_location" class="location"><b>📍Location: Pondicherry</b></p>
+          <p id = "opt3_text1">
             With its French colonial architecture, charming beaches, and
             vibrant café culture, Pondicherry is a perfect blend of history
             and leisure.
           </p>
-          <p>A beautiful place to visit</p>
+          <p id = "opt3_text2">A beautiful place to visit</p>
           <div class="rating">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -422,19 +426,19 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt3_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/4.jpg" alt="Snow-Capped Peaks" class="destination-image" />
-          <h3>Snow-Capped Peaks</h3>
-          <p class="location"><b>📍Location: Gulmarg, Kashmir</b></p>
-          <p>
+          <h3 id = "opt4_title">Snow-Capped Peaks</h3>
+          <p id = "opt4_location" class="location"><b>📍Location: Gulmarg, Kashmir</b></p>
+          <p id = "opt4_text1">
             Famous for its powdery snow, skiing resorts, and breathtaking
             views of the Himalayas, Gulmarg is a paradise for adventure
             seekers.
           </p>
-          <p>A beautiful place to visit</p>
+          <p id = "opt4_text2">A beautiful place to visit</p>
           <div class="rating">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -442,18 +446,18 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt4_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/5.jpg" alt="Hidden Beach Escape" class="destination-image" />
-          <h3>Hidden Beach Escape</h3>
-          <p class="location"><b>📍Location: Butterfly Beach, Goa</b></p>
-          <p>
+          <h3 id = "opt5_title">Hidden Beach Escape</h3>
+          <p id = "opt5_location" class="location"><b>📍Location: Butterfly Beach, Goa</b></p>
+          <p id = "opt5_text1">
             A secluded beach with golden sands, stunning sunset views, and a
             perfect spot for dolphin watching and snorkeling.
           </p>
-          <p>A beautiful place to visit</p>
+          <p id = "opt5_text2">A beautiful place to visit</p>
           <div class="rating">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -461,17 +465,17 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt5_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
         <div class="destination-card">
           <img src="./img/6.jpg" alt="Serene Lake Retreat" class="destination-image" />
-          <h3>Serene Lake Retreat</h3>
-          <p class="location"><b>📍Location: Nainital, Uttarakhand</b></p>
-          <p>
+          <h3 id = "opt6_title">Serene Lake Retreat</h3>
+          <p id = "opt6_location" class="location"><b>📍Location: Nainital, Uttarakhand</b></p>
+          <p id = "opt6_text1">
             Surrounded by lush hills, Nainital Lake is a picturesque spot
             perfect for boating, leisure walks, and breathtaking sunset views.
           </p>
-          <p>A beautiful place to visit</p>
+          <p id = "opt6_text2">A beautiful place to visit</p>
           <div class="rating">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -479,18 +483,18 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt6_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/7.jpg" alt="Majestic Waterfalls" class="destination-image" />
-          <h3>Majestic Waterfalls</h3>
-          <p class="location"><b>📍Location: Jog Falls, Karnataka</b></p>
-          <p>
+          <h3 id = "opt7_title">Majestic Waterfalls</h3>
+          <p id = "opt7_location" class="location"><b>📍Location: Jog Falls, Karnataka</b></p>
+          <p id = "opt7_text1">
             India’s second-highest waterfall, Jog Falls, offers a mesmerizing
             sight, especially during monsoons with its powerful cascades.
           </p>
-          <p>A beautiful place to visit</p>
+          <p id = "opt7_text2">A beautiful place to visit</p>
           <div class="rating">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -498,18 +502,18 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt7_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/8.jpg" alt="Tropical Island" class="destination-image" />
-          <h3>Tropical Island</h3>
-          <p class="location"><b>📍Location: Havelock Island, Andaman</b></p>
-          <p>
+          <h3 id = "opt8_title">Tropical Island</h3>
+          <p id = "opt8_location" class="location"><b>📍Location: Havelock Island, Andaman</b></p>
+          <p id = "opt8_text1">
             Crystal-clear waters, pristine beaches, and rich marine life make
             Havelock Island a paradise for scuba diving and relaxation.
           </p>
-          <p>A beautiful place to visit</p>
+          <p id = "opt8_text2">A beautiful place to visit</p>
           <div class="rating">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -517,18 +521,18 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt8_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/9.jpg" alt="Scenic Highlands" class="destination-image" />
-          <h3>Scenic Highlands</h3>
-          <p class="location"><b>📍Location: Chikmagalur, Karnataka</b></p>
-          <p>
+          <h3 id = "opt9_title">Scenic Highlands</h3>
+          <p id = "opt9_location" class="location"><b>📍Location: Chikmagalur, Karnataka</b></p>
+          <p id = "opt9_text1">
             Known as the ‘Coffee Land of India,’ Chikmagalur’s misty hills and
             lush coffee plantations create a perfect retreat.
           </p>
-          <p>A beautiful place to visit</p>
+          <p id = "opt9_text2">A beautiful place to visit</p>
           <div class="rating">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -536,14 +540,14 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt9_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/10.jpg" alt="Mystical Desert Oasis" class="destination-image" />
-          <h3>Mystical Desert Oasis</h3>
-          <p class="location"><b>📍Location: Jaisalmer, Rajasthan</b></p>
-          <p>
+          <h3 id = "opt10_title">Mystical Desert Oasis</h3>
+          <p id = "opt10_location" class="location"><b>📍Location: Jaisalmer, Rajasthan</b></p>
+          <p id = "opt10_text">
             Experience camel safaris, golden sand dunes, and the royal charm
             of Jaisalmer’s historic forts and heritage sites.
           </p>
@@ -555,13 +559,13 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt10_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
         <div class="destination-card">
           <img src="./img/11.jpg" alt="Beach Paradise" class="destination-image" />
-          <h3>Beach Paradise</h3>
-          <p class="location"><b>📍Location: Palolem Beach, Goa</b></p>
-          <p>
+          <h3 id = "opt11_title">Beach Paradise</h3>
+          <p id = "opt11_location" class="location"><b>📍Location: Palolem Beach, Goa</b></p>
+          <p id = "opt11_text">
             A stunning crescent-shaped beach known for its serene beauty and
             calm waters, ideal for relaxation and adventure.
           </p>
@@ -573,14 +577,14 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt11_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/12.jpg" alt="Hill Retreat" class="destination-image" />
-          <h3>Hill Retreat</h3>
-          <p class="location"><b>📍Location: Munnar, Kerala</b></p>
-          <p>
+          <h3 id = "opt12_title">Hill Retreat</h3>
+          <p id = "opt12_location" class="location"><b>📍Location: Munnar, Kerala</b></p>
+          <p id = "opt12_text">
             Famous for tea plantations, rolling hills, and mist-covered
             landscapes, offering a refreshing escape into nature.
           </p>
@@ -592,14 +596,14 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt12_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/13.jpg" alt="Mountain Escape" class="destination-image" />
-          <h3>Mountain Escape</h3>
-          <p class="location"><b>📍Location: Manali, Himachal Pradesh</b></p>
-          <p>
+          <h3 id = "opt13_title">Mountain Escape</h3>
+          <p id = "opt13_location" class="location"><b>📍Location: Manali, Himachal Pradesh</b></p>
+          <p id = "opt13_text">
             Surrounded by the majestic Himalayas, Manali is a perfect spot for
             trekking, adventure, and breathtaking views.
           </p>
@@ -611,14 +615,14 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt13_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/14.jpg" alt="Seaside Village" class="destination-image" />
-          <h3>Seaside Village</h3>
-          <p class="location"><b>📍Location: Gokarna, Karnataka</b></p>
-          <p>
+          <h3 id = "opt14_title">Seaside Village</h3>
+          <p id = "opt14_location" class="location"><b>📍Location: Gokarna, Karnataka</b></p>
+          <p id = "opt14_text">
             A peaceful coastal town with untouched beaches, perfect for
             solitude and a spiritual getaway.
           </p>
@@ -630,14 +634,14 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt14_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/15.jpg" alt="Homestay Haven" class="destination-image" />
-          <h3>Homestay Haven</h3>
-          <p class="location"><b>📍Location: Coorg, Karnataka</b></p>
-          <p>
+          <h3 id = "opt15_title">Homestay Haven</h3>
+          <p id = "opt15_location" class="location"><b>📍Location: Coorg, Karnataka</b></p>
+          <p id = "opt15_text">
             Experience warm hospitality, lush greenery, and delicious homemade
             food in traditional Coorg homestays.
           </p>
@@ -648,14 +652,14 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt15_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/16.jpg" alt="Beachside Escape" class="destination-image" />
-          <h3>Beachside Escape</h3>
-          <p class="location"><b>📍Location: Varkala, Kerala</b></p>
-          <p>
+          <h3 id = "opt16_title">Beachside Escape</h3>
+          <p id = "opt16_location" class="location"><b>📍Location: Varkala, Kerala</b></p>
+          <p id = "opt16_text">
             Golden sands, breathtaking cliffs, and vibrant beach shacks make
             Varkala a must-visit coastal retreat.
           </p>
@@ -666,14 +670,14 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt16_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/17.jpg" alt="Himalayan Retreat" class="destination-image" />
-          <h3>Himalayan Retreat</h3>
-          <p class="location"><b>📍Location: Rishikesh, Uttarakhand</b></p>
-          <p>
+          <h3 id = "opt17_title">Himalayan Retreat</h3>
+          <p id = "opt17_location" class="location"><b>📍Location: Rishikesh, Uttarakhand</b></p>
+          <p id = "opt17_text">
             The yoga capital of the world offers breathtaking landscapes and
             thrilling adventure activities like river rafting.
           </p>
@@ -684,14 +688,14 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt17_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/18.jpg" alt="Misty Hill Station" class="destination-image" />
-          <h3>Misty Hill Station</h3>
-          <p class="location"><b>📍Location: Ooty, Tamil Nadu</b></p>
-          <p>
+          <h3 id = "opt18_title">Misty Hill Station</h3>
+          <p id = "opt18_location" class="location"><b>📍Location: Ooty, Tamil Nadu</b></p>
+          <p id = "opt18_text">
             Ooty’s rolling hills, charming tea estates, and colonial
             architecture make it a popular hill station retreat.
           </p>
@@ -702,16 +706,16 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt18_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
 
         <div class="destination-card">
           <img src="./img/19.jpg" alt="Cultural Village" class="destination-image" />
-          <h3>Cultural Village</h3>
-          <p class="location">
+          <h3 id = "opt19_title">Cultural Village</h3>
+          <p id = "opt19_location" class="location">
             <b>📍Location: Raghurajpur Artist Village</b>
           </p>
-          <p>
+          <p id = "opt19_text">
             Raghurajpur Artist Village is a heritage crafts village located
             about 14 kilometers away from the city of Puri, Odisha, India.
           </p>
@@ -722,13 +726,13 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt19_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
         <div class="destination-card">
           <img src="./img/20.jpg" alt="Village/Ecotourism" class="destination-image" />
-          <h3>Village/Ecotourism</h3>
-          <p class="location"><b>📍Location: Chandigre Village</b></p>
-          <p>
+          <h3 id = "opt20_title">Village/Ecotourism</h3>
+          <p id = "opt20_location" class="location"><b>📍Location: Chandigre Village</b></p>
+          <p id = "opt20_text">
             Serene and picturesque settlement that showcases the rich cultural
             heritage and wonderful natural beauty of the region.
           </p>
@@ -739,13 +743,13 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt20_learn"href="homestays.html" class="learn-more">Learn More</a>
         </div>
         <div class="destination-card">
           <img src="./img/21.jpg" alt="Village/Tourist Attraction" class="destination-image" />
-          <h3>Village/Tourist Attraction</h3>
-          <p class="location"><b>📍Location: Sasatgre Village</b></p>
-          <p>
+          <h3 id = "opt21_title">Village/Tourist Attraction</h3>
+          <p id = "opt21_location" class="location"><b>📍Location: Sasatgre Village</b></p>
+          <p id = "opt21_text">
             Embraced by lush greenery and the serenity of nature, this village
             offers a tranquil escape from the hustle and bustle of city life.
           </p>
@@ -756,13 +760,13 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt21_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
         <div class="destination-card">
           <img src="./img/22.jpg" alt="Cultural Village" class="destination-image" />
-          <h3>Cultural Village</h3>
-          <p class="location"><b>📍Location: Srijani Shilpagram</b></p>
-          <p>
+          <h3 id = "opt22_title">Cultural Village</h3>
+          <p id = "opt22_location" class="location"><b>📍Location: Srijani Shilpagram</b></p>
+          <p id = "opt22_text">
             Ethnographic museum that spreads across 15 acres of land designed
             to promote and showcase the art, craft, and cultural heritage of
             Eastern India's tribal communities.
@@ -774,7 +778,7 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
           </div>
-          <a href="homestays.html" class="learn-more">Learn More</a>
+          <a id = "opt22_learn" href="homestays.html" class="learn-more">Learn More</a>
         </div>
       </div>
     </div>
@@ -787,12 +791,12 @@
 
   <section class="carousel-container">
     <div class="carousel">
-      <h2>What Our Travelers Say</h2>
+      <h2 id = "testimonial_title">What Our Travelers Say</h2>
       <div class="testimonial-item active">
         <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Prachi.png" alt="Sanchali Saha" />
-        <h4><b>Amazing Homestay Experience</b></h4>
-        <p>"An unforgettable experience! The hospitality was incredible!"</p>
-        <p class="author">- Sanchali Saha</p>
+        <h4 id = "comment1_title"><b>Amazing Homestay Experience</b></h4>
+        <p id = "comment1_text">"An unforgettable experience! The hospitality was incredible!"</p>
+        <p class="author" id = "comment1_author">- Sanchali Saha</p>
         <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -804,12 +808,12 @@
 
       <div class="testimonial-item">
         <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Vaibhav.png" alt="Rajesh Kumar" />
-        <h4><b>Comfortable Bus Journey</b></h4>
-        <p>
+        <h4 id = "comment2_title"><b>Comfortable Bus Journey</b></h4>
+        <p id = "comment2_text">
           "The bus journey was smooth and comfortable. The seats were
           spacious, and the staff was very helpful."
         </p>
-        <p class="author">- Rajesh Kumar</p>
+        <p class="author" id = "comment2_author">- Rajesh Kumar</p>
         <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -821,12 +825,12 @@
 
       <div class="testimonial-item">
         <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Sreesti.png" alt="Priya Mehta" />
-        <h4><b>Excellent Services</b></h4>
-        <p>
+        <h4 id = "comment3_text"><b>Excellent Services</b></h4>
+        <p id = "comment3_desc">
           "From booking to the actual trip, everything was seamless. The team
           was always available to assist us."
         </p>
-        <p class="author">- Priya Mehta</p>
+        <p class="author" id = "comment3_author">- Priya Mehta</p>
         <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -838,12 +842,12 @@
 
       <div class="testimonial-item">
         <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Saumya.png" alt="Ananya Das" />
-        <h4><b>Beautiful Homestay</b></h4>
-        <p>
+        <h4 id = "comment4_title"><b>Beautiful Homestay</b></h4>
+        <p id = "comment4_text">
           "The homestay was cozy and surrounded by nature. Perfect for a
           peaceful getaway!"
         </p>
-        <p class="author">- Ananya Das</p>
+        <p class="author" id = "comment4_author">- Ananya Das</p>
         <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -855,12 +859,12 @@
 
       <div class="testimonial-item">
         <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Palak.png" alt="Sonali Sharma" />
-        <h4><b>Amazing Homestay Experience</b></h4>
-        <p>
+        <h4 id = "comment5_title"><b>Amazing Homestay Experience</b></h4>
+        <p id = "comment5_text">
           "An unforgettable experience! The hospitality was incredible, and
           the location was serene. Highly recommended!"
         </p>
-        <p class="author">- Sonali Sharma</p>
+        <p class="author" id = "comment5_author">- Sonali Sharma</p>
         <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -872,12 +876,12 @@
 
       <div class="testimonial-item">
         <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Ayush.png" alt="Vikram Singh" />
-        <h4><b>Affordable Payment</b></h4>
-        <p>
+        <h4 id = "comment6_title"><b>Affordable Payment</b></h4>
+        <p id = "comment6_text">
           "The packages were reasonably priced, and the payment process was
           hassle-free. Great value for money!"
         </p>
-        <p class="author">- Vikram Singh</p>
+        <p class="author" id = "comment6_author">- Vikram Singh</p>
         <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -889,12 +893,12 @@
 
       <div class="testimonial-item">
         <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Japit.png" alt="Neha Gupta" />
-        <h4><b>Memorable Experience</b></h4>
-        <p>
+        <h4 id = "comment7_title"><b>Memorable Experience</b></h4>
+        <p id = "comment7_text">
           "Every moment of the trip was memorable. The guides were
           knowledgeable, and the itinerary was well-planned."
         </p>
-        <p class="author">- Neha Gupta</p>
+        <p class="author" id = "comment7_author">- Neha Gupta</p>
         <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -906,12 +910,12 @@
 
       <div class="testimonial-item">
         <img src="https://cdn1.byjus.com/byjusweb/img/successpage/Ridham.png" alt="Arjun Patel" />
-        <h4><b>Scenic Places</b></h4>
-        <p>
+        <h4 id = "comment8_title"><b>Scenic Places</b></h4>
+        <p id = "comment8_text">
           "The places we visited were breathtaking. Each location was more
           beautiful than the last!"
         </p>
-        <p class="author">- Arjun Patel</p>
+        <p class="author" id = "comment8_author">- Arjun Patel</p>
         <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -923,12 +927,12 @@
 
       <div class="testimonial-item">
         <img src="https://cdn1.byjus.com/byjusweb/img/successpage/arfaatk.png" alt="Sreham Hazra" />
-        <h4><b>Friendly Staff</b></h4>
-        <p>
+        <h4 id = "comment9_title"><b>Friendly Staff</b></h4>
+        <p id = "comment9_text">
           "The staff was very friendly and accommodating. They made us feel at
           home throughout the trip."
         </p>
-        <p class="author">- Sreham Hazra</p>
+        <p class="author" id = "comment9_author">- Sreham Hazra</p>
         <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -940,12 +944,12 @@
 
       <div class="testimonial-item">
         <img src="https://cdn1.byjus.com/byjusweb/img/successpage/kunal_kundwani.png" alt="Ravi Shankar" />
-        <h4><b>Well-Organized Trip</b></h4>
-        <p>
+        <h4 id = "comment10_title"><b>Well-Organized Trip</b></h4>
+        <p id = "comment10_text">
           "Everything was well-organized, from transportation to
           accommodations. We didn’t have to worry about a thing!"
         </p>
-        <p class="author">- Ravi Shankar</p>
+        <p class="author" id = "comment10_author">- Ravi Shankar</p>
         <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -967,17 +971,17 @@
 
   <!-- Blog Highlights -->
   <header class="header">
-    <h1>🌿 Explore Our Blogs 🌿</h1>
+    <h1 id = "blog_section">🌿 Explore Our Blogs 🌿</h1>
   </header>
 
   <section class="blog-section">
-    <h2>Latest Articles</h2>
-    <p>Read our latest insights on travel and homestays.</p>
+    <h2 id = "blog_title">Latest Articles</h2>
+    <p id = "blog_text">Read our latest insights on travel and homestays.</p>
 
     <div class="tabs">
-      <button class="tab-button" data-category="all">All Blogs</button>
-      <button class="tab-button" data-category="travel">Travel Blogs</button>
-      <button class="tab-button" data-category="homestay">
+      <button class="tab-button" data-category="all" id = "blog_all">All Blogs</button>
+      <button class="tab-button" data-category="travel" id = "blog_travel">Travel Blogs</button>
+      <button class="tab-button" data-category="homestay" id = "blog_homestay">
         Homestay Blogs
       </button>
     </div>
@@ -990,31 +994,31 @@
       <!-- First Row: Rural Retreats, Quick Links, Customer Support -->
       <div class="footer-row">
         <div class="footer-section about">
-          <h3 class="footer-title">Rural Retreats</h3>
-          <p>
+          <h3 class="footer-title" translate="no">Rural Retreats</h3>
+          <p id="footer_text">
             We offer budget-friendly tours, curated travel experiences, and
             luxury escapes worldwide.
           </p>
         </div>
 
         <div class="footer-section links">
-          <h4>Quick Links</h4>
+          <h4 id = "footer_quicklinks">Quick Links</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="homestays.html">Hotels & Homestays</a></li>
-            <li><a href="#blog-highlights">Travel Guides</a></li>
-            <li><a href="faq.html">FAQs</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a id = "footer_home" href="index.html">Home</a></li>
+            <li><a id = "footer_about_link" href="about.html">About Us</a></li>
+            <li><a id = "footer_services" href="services.html">Services</a></li>
+            <li><a id = "footer_hotels" href="homestays.html">Hotels & Homestays</a></li>
+            <li><a id = "footer_guides" href="#blog-highlights">Travel Guides</a></li>
+            <li><a id = "footer_faq" href="faq.html">FAQs</a></li>
+            <li><a id = "footer_contact" href="contact.html">Contact Us</a></li>
           </ul>
         </div>
 
         <div class="footer-section contact">
-          <h4>Customer Support</h4>
-          <p>Email: <a href="#">support@ruralretreats.com</a></p>
-          <p>Phone: <a href="tel:+91629XXXXXXX">+91 629XX XXXXX</a></p>
-          <p>
+          <h4 id = "footer_support">Customer Support</h4>
+          <p id = "footer_email">Email: <a href="#">support@ruralretreats.com</a></p>
+          <p id = "footer_phone">Phone: <a href="tel:+91629XXXXXXX">+91 629XX XXXXX</a></p>
+          <p id = "footer_address">
             Address: Q University Institute Of Technology, Burdwan-713104,
             West Bengal
           </p>
@@ -1024,7 +1028,7 @@
       <!-- Second Row: Social Media, Language Selector, Newsletter -->
       <div class="footer-row">
         <div class="footer-section social-media">
-          <h4>Follow Us</h4>
+          <h4 id = "footer_follow">Follow Us</h4>
           <div class="social-icons">
             <a href="#" class="youtube" title="youtube"><i class="fa-brands fa-youtube"></i></a>
             <a href="#" class="instagram" title="instagram"><i class="fa-brands fa-instagram"></i></a>
@@ -1034,44 +1038,34 @@
         </div>
 
         <div class="footer-section language-selector">
-          <h4>Language</h4>
-          <label for="language-select">Choose Language:</label>
+          <h4 id = "footer_language">Language</h4>
+          <label id = "footer_lang_label" for="language-select">Choose Language:</label>
           <select id="language-select">
-            <option>English</option>
-            <option>Bengali</option>
-            <option>Hindi</option>
-            <option>French</option>
-            <option>Spanish</option>
-            <option>German</option>
+              <option value="en">English</option>
+              <option value="bn">Bengali</option>
+              <option value="hi">Hindi</option>
+              <option value="fr">French</option>
+              <option value="es">Spanish</option>
+              <option value="de">German</option>
           </select>
         </div>
 
-          <div class="footer-section">
-            <h4>Newsletter</h4>
-            <p>Subscribe for exclusive travel deals!</p>
-            <div class="newsletter">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                id="newsletter-email"
-                required
-              />
-              <button
-                type="submit"
-                class="footer-newsletter-btn"
-                onclick="subscribeNewsletter()"
-              >
-                <b>Subscribe</b>
-              </button>
-            </div>
+        <div class="footer-section newsletter">
+          <h4 id = "footer_newsletter_heading">Newsletter</h4>
+          <p id = "footer_newsletter">Subscribe for exclusive travel deals!</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" id="newsletter-email"  required />
+            <button type="submit" class="footer-newsletter-btn" id = "footer-newsletter-btn"onclick="subscribeNewsletter()">
+              <b>Subscribe</b>
+            </button>
             <div id="newsletter-email-error"></div>
           </div>
         </div>
       </div>
 
     <div class="footer-bottom">
-      <p>
-        &copy; 2025 Rural Retreats. All rights reserved. |
+      <p id = "footer_rights">
+        &copy; 2025 <span translate="no"> Rural Retreats. </span> All rights reserved. |
         <a href="pp.html">Privacy Policy</a> |
         <a href="t&c.html">Terms & Conditions</a>
       </p>
@@ -1087,7 +1081,7 @@
     <div id="chatModal" class="chatbot-modal">
         <div class="chatbot-modal-content">
             <div class="chatbot-header">
-                <h3>Chat With Us</h3>
+                <h3 id = "chatbot_header">Chat With Us</h3>
                 <span class="close-chatbot">&times;</span>
             </div>
             <div class="chatbot-body">
